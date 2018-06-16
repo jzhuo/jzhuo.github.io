@@ -3,7 +3,7 @@
 }
 
 #first_box{
-	background-color: #474747;
+	background-color: #1b242f;
 	min-height: 650px;
     position: relative;
     box-sizing: border-box;
@@ -23,7 +23,7 @@
     display: block;
 }
 
-#header_nav_bar{
+#header_box{
 	box-sizing: border-box;
 	display: block;
 }
@@ -66,6 +66,27 @@
     font-size: 1.2em;
     color: #ffffff;
 }
+
+#navigation_bar {
+    float: right;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
