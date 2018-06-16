@@ -1,0 +1,24 @@
+#first_box{
+	min-height: 650px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;   
+}
+
+#first_box_container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#header_container{
+	padding: 2em 0;
+    display: block;
+}
+
+#header_nav_bar{
+	box-sizing: border-box;
+	display: block;
+}
