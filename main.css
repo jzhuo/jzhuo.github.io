@@ -73,12 +73,43 @@
     box-sizing: border-box;
 }
 
+#navigation_list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+    display: block;
+    box-sizing: border-box;
+}
 
+.active_link {
+    display: inline-block;
+    position: relative;
+    text-align: -webkit-match-parent;
+    box-sizing: border-box;
+}
 
-
-
-
-
+#navigation_bar ul li.active_link a {
+    color: #7FDBFF;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: block;
+    margin: 6px 4px;
+    text-shadow: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    background: transparent;
+    cursor: pointer;
+    text-align: -webkit-match-parent;
+    box-sizing: border-box;
+}
 
 
 
