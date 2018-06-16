@@ -11,6 +11,8 @@
 }
 
 #first_box_container{
+    width: 750px;
+    box-sizing: border-box;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
