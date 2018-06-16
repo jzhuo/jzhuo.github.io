@@ -3,6 +3,7 @@
 }
 
 #first_box{
+	background-color: #474747;
 	min-height: 650px;
     position: relative;
     box-sizing: border-box;
