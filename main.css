@@ -65,7 +65,12 @@ a:-webkit-any-link {
     text-decoration: underline;
 }
 
-
+#jzhuo_name_link span {
+    border: 5px solid #7FDBFF;
+    padding: 0px 14px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
 
 
 
