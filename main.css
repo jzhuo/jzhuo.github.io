@@ -1,3 +1,7 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 #first_box{
 	min-height: 650px;
     position: relative;
@@ -30,12 +34,41 @@
 }
 
 #jzhuo_name_link h1{
+	font-size: 36px;
+    box-sizing: border-box;
+    display: block;
 	margin: 0;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Asap', sans-serif;
-    font-size: 36px;
-    box-sizing: border-box;
-    display: block;
 }
+
+#jzhuo_name_link h1 a{
+	text-decoration: none;
+    color: #ffffff;
+}
+
+/* not sure if i need this or what this does
+#body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+} 
+*/
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
