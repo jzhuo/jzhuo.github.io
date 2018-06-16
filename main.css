@@ -59,12 +59,6 @@
 } 
 */
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 #jzhuo_name_link span {
     border: 5px solid #7FDBFF;
     padding: 0px 14px;
