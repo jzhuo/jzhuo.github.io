@@ -12,12 +12,12 @@
 }
 
 #first_box_container{
-    box-sizing: border-box;
-    display: block;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    box-sizing: border-box;
+    display: block;
 }
 
 #first_box_container::before{
