@@ -20,6 +20,7 @@
     display: block;
 }
 
+/*
 #first_box_container::before {
     display: table;
     content: " ";
@@ -32,6 +33,7 @@
     content: " ";
     box-sizing: border-box;
 }
+*/
 
 #header_container{
 	padding: 2em 0;
