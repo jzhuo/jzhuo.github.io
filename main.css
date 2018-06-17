@@ -165,7 +165,7 @@ ul.jzhuo_detailed_information_list{
     margin-bottom: 10px;
     box-sizing: border-box;
     display: block;
-    list-style-type: disc;
+    list-style-type: none;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
