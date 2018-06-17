@@ -187,9 +187,21 @@ ul.jzhuo_detailed_information_list li ul.personal_information_text li {
     text-align: -webkit-match-parent;
 }
 
+#jzhuo_info_right_column{
+    padding: 2em 2em 0em 0;
+    float: right;
+    width: 49%;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+    display: block;
+}
 
-
-
+#jzhuo_self_image{
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
 
 
 
