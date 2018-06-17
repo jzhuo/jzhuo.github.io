@@ -187,7 +187,7 @@
     display: block;
 }
 
-ul.jzhuo_detailed_information_list li ul.personal_information_text li {
+ul.jzhuo_detailed_information_list li ul.personal_information_text .title_text {
     width: 26%;
     display: inline-block;
     font-size: 0.9em;
