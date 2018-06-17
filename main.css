@@ -204,31 +204,14 @@ ul.personal_information_text b {
     box-sizing: border-box;
 }     
 
-ul.jzhuo_detailed_information_list li ul.personal_information_text li {
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    /* NEED TO IMPLEMENT */
-    
+ul.jzhuo_detailed_information_list li ul.personal_information_text .info_text {
+    display: inline-block;
+    font-size: 0.9em;
+    margin-top: 1em;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: -webkit-match-parent;
+    box-sizing: border-box;
 }
 
 #jzhuo_info_right_column{
