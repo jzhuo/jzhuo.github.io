@@ -173,6 +173,12 @@
     -webkit-padding-start: 40px;
 }
 
+#jzhuo_detailed_information_list li {
+    display: block;
+    box-sizing: border-box;
+    text-align: -webkit-match-parent;
+}
+
 .personal_information_text{
     padding: 0;
     margin-bottom: 0;
