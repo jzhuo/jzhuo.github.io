@@ -157,7 +157,7 @@
     display: block;
 }
 
-.jzhuo_detailed_information_list{
+ul.jzhuo_detailed_information_list{
     margin-top: 2em;
     border-top: 1px solid #AFAFAF;
     padding-top: 0.5em;
