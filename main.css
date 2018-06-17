@@ -20,7 +20,14 @@
     display: block;
 }
 
-#first_box_container::before{
+#first_box_container::before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
+#first_box_container::after {
+    clear: both;
     display: table;
     content: " ";
     box-sizing: border-box;
