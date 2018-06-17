@@ -135,6 +135,24 @@
     display: block;
 }
 
+#jzhuo_info_left_column h1 {
+    font-size: 1.2em;
+    color: #FFF;
+    background: #00a78e;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 0.5em 0 0;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    box-sizing: border-box;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 #jzhuo_personal_description{
     margin-bottom: 10px;
     font-weight: 500;
