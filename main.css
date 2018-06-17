@@ -236,7 +236,13 @@ ul.jzhuo_detailed_information_list li ul.personal_information_text .info_text {
     box-sizing: border-box;
 }
 
-
+#jzhuo_info_right_column img{
+    width: 100%;
+    margin-top: 19px;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
 
 
 
