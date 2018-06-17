@@ -138,20 +138,17 @@
 }
 
 #navigation_bar ul li.active_link a::before{
-    color: #7FDBFF;
-    font-size: 0.9em;
-    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
     padding: 10px 0;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    display: block;
-    margin: 6px 4px;
-    text-shadow: none;
-    -webkit-transition: 0.5s all;
-    background:transparent;
+    max-width: 0;
+    border-bottom: 3px solid #7FDBFF;
+    color: #7FDBFF;
+    content: attr(data-hover);
+    transition: max-width 0.5s;
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 #navigation_bar ul li a {
@@ -169,6 +166,20 @@
     background: transparent;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+#navigation_bar ul li a.scroll::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    max-width: 0;
+    border-bottom: 3px solid #7FDBFF;
+    color: #7FDBFF;
+    content: attr(data-hover);
+    transition: max-width 0.5s;
+    box-sizing: border-box;
 }
 
 #jzhuo_personal_info_container{
