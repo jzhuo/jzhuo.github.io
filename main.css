@@ -113,6 +113,13 @@
     box-sizing: border-box;
 }
 
+#nav_list::after{
+    clear: both;
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+}
+
 #navigation_bar ul li {
     display: inline-block;
     position: relative;
