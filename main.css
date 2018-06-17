@@ -103,6 +103,19 @@
     box-sizing: border-box;
 }
 
+#navigation_bar ul li a.scroll {
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    position: relative;
+    display: block;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
 #jzhuo_personal_info_container{
     background: rgba(47, 44, 44, 0.58);
     margin-top: 3em;
