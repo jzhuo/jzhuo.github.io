@@ -12,7 +12,7 @@ The first bar on the page.
     box-sizing: content-box;
     display: block;   
     -webkit-background-size: cover;
-    width: 100%;
+    width: cover;
 }
 
 #top_page_container {
@@ -20,8 +20,8 @@ The first bar on the page.
     padding-right: 15px;
     padding-bottom: 2em;
     padding-left: 15px;
-    margin-left: 25%;
-	margin-right: 25%;
+    margin-left: 20%;
+	margin-right: 20%;
     box-sizing: border-box;
     display: block;
 }
