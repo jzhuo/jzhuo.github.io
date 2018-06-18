@@ -76,13 +76,50 @@ The first bar on the page.
 	display: block;
 }
 
+#nav_links {
+	display: block;
+	box-sizing: border-box;
+}
 
+#nav_links_list {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: block;
+}
 
+# active_home_link {
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	text-align: inherit;
+}	
 
-
-
-
-
+#nav_items_right ul #active_home_link {
+	color: #00BFFF;
+	font-size: 0.9em;
+	padding-top: 10px;
+    	padding-right: 0px;
+    	padding-bottom: 10px;
+   	padding-left: 0px;
+	text-transform: uppercase;
+    	font-family: 'Open Sans', sans-serif;
+	position: relative;
+    	display: block;
+	margin-top: 6px;
+    	margin-right: 4px;
+    	margin-bottom: 6px;
+    	margin-left: 4px;
+	text-shadow: none;
+	background: transparent;
+	cursor: pointer;
+	box-sizing: border-box;
+}
 
 
 
