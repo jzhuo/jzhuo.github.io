@@ -215,6 +215,22 @@ The first bar on the page.
 	display: block;
 }
 
+#left_information_list {
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: block;
+    list-style-type: none;
+	padding-top: 0.5em;
+	padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	margin-top: 2em;
+    border-top: 1px solid #AFAFAF;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(175, 175, 175);
+}
+
 #image_right {
 	padding-top: 3em;
     padding-right: 3em;
