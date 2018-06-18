@@ -36,7 +36,8 @@ Beginning of the css for the top header
 */
 
 #nav_bar {
-	padding-top: 1em;
+	padding-top: .8em;
+	padding-bottom: .8em;
 	overflow:auto;
 	clear:both;
     display:block;
