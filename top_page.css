@@ -30,6 +30,7 @@ The first bar on the page.
 }
 
 #nav_bar {
+	margin-top: 10px;
 	overflow:auto;
 	clear:both;
     display:block;
