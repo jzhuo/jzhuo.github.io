@@ -153,6 +153,8 @@ The first bar on the page.
 }
 
 #jzhuo_information {
+	overflow:auto;
+	clear:both;
 	background: rgba(23, 20, 20, 0.58);
     margin-top: 4em;
 	box-sizing: border-box;
