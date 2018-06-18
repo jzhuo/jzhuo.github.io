@@ -249,7 +249,7 @@ The first bar on the page.
 	display: block;
 }
 
-#information_text li {
+#information_text li:nth-child(1) {
 	width: 20%;
 	display: inline-block;
     font-size: 1em;
@@ -257,7 +257,21 @@ The first bar on the page.
     margin-top: 1em;
     font-weight: 400;
 	box-sizing: border-box;
-	
+}
+
+#information_text b{
+	color: #fff;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+#information_text li:nth-child(2) {
+	display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 400;
+	box-sizing: border-box;
 }
 
 #image_right {
