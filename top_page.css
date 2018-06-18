@@ -170,6 +170,51 @@ The first bar on the page.
 	display: block;
 }
 
+#information_left h1 {
+	background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: 38ACEC;
+	font-size: 1.2em;
+    color: #ffffff;
+	display: inline-block;
+	padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+	position: relative;
+	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+	font-weight: bold;
+	margin-top: 0.5em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+	font-family: 'Asap', sans-serif;
+	line-height: 1.1;
+	box-sizing: border-box;
+}
+
+#information_left h6 {
+	font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 3px;
+	font-family: 'Asap', sans-serif;
+	font-weight: 500;
+    line-height: 1.1;
+	margin-bottom: 10px;
+	font-weight: 500;
+    line-height: 1.1;
+	box-sizing: border-box;
+	display: block;
+}
+
 #image_right {
 	padding-top: 3em;
     padding-right: 3em;
@@ -183,7 +228,7 @@ The first bar on the page.
 	display: block;
 }
 
-#image_right {
+#image_right img {
 	width: 100%;
     margin-top: 19px;
 	border-top-color: initial;
