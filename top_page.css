@@ -2,16 +2,21 @@
 	background-color: #1b242f;
 	min-height: 550px;
     position: relative;
-    box-sizing: border-box;
+    box-sizing: content-box;
     display: block;   
     -webkit-background-size: cover;
+    width: 100%;
 }
 
 #top_page_container{
+    padding-top: 2em;
     padding-right: 15px;
+    padding-bottom: 2em;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     box-sizing: border-box;
     display: block;
 }
