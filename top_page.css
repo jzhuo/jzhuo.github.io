@@ -101,9 +101,9 @@ The first bar on the page.
 #active_home_link a {
 	color: #00BFFF;
 	font-size: 0.9em;
-	padding-top: 10px;
+	padding-top: 0px;
     	padding-right: 0px;
-    	padding-bottom: 10px;
+    	padding-bottom: 0px;
    	padding-left: 0px;
 	text-transform: uppercase;
     	font-family: 'Open Sans', sans-serif;
