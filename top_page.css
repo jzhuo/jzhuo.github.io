@@ -39,11 +39,36 @@ The first bar on the page.
 	dsplay: block;
 }
 
+#jzhuo_name h1 {
+	margin: 0;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Asap', sans-serif;
+	font-size: 24px;
+	line-height: 1.1;
+	box-sizing: border-box;
+	display: block;
+}
 
+#jzhuo_name h1 {
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: 0.5s all;
+	background: transparent;
+	box-sizing: border-box;
+	cursor: pointer;
+}
 
-
-
-
+#jzhuo_name h1 a span {
+	border: 5px solid #00BFFF;
+	padding-top: 0px;
+	padding-right: 14px;
+	padding-bottom: 0px;
+	padding-left: 14px;
+	font-size: 1em;
+	color: #ffffff;
+	box-sizing: border-box;
+}
 
 
 
