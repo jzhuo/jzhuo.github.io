@@ -92,7 +92,7 @@ The first bar on the page.
 	display: block;
 }
 
-#active_home_link {
+#active_about_link {
 	display: inline-block;
 	position: relative;
 	box-sizing: border-box;
