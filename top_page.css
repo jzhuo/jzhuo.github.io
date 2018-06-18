@@ -97,7 +97,7 @@ The first bar on the page.
 	text-align: inherit;
 }	
 
-#active_home_link {
+#active_home_link a {
 	color: #00BFFF;
 	font-size: 0.9em;
 	padding-top: 10px;
