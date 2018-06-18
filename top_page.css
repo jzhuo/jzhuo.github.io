@@ -1,4 +1,11 @@
-#top_page{
+/* 
+
+This is the css file for the top of the page.
+The first bar on the page.
+
+*/
+
+#top_page {
 	background-color: #1b242f;
 	min-height: 550px;
     position: relative;
@@ -8,7 +15,7 @@
     width: 100%;
 }
 
-#top_page_container{
+#top_page_container {
     padding-top: 2em;
     padding-right: 15px;
     padding-bottom: 2em;
@@ -19,10 +26,12 @@
     margin-bottom: auto;
     box-sizing: border-box;
     display: block;
-    height:100%
 }
 
-
+#nav_bar {
+    display:block;
+    box-sizing: border-box;
+}
 
 
 
