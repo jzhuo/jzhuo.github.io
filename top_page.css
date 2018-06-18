@@ -20,7 +20,8 @@ The first bar on the page.
     padding-right: 15px;
     padding-bottom: 2em;
     padding-left: 15px;
-    width: 75%;
+    margin-left: 25%;
+	margin-right: 25%;
     box-sizing: border-box;
     display: block;
 }
