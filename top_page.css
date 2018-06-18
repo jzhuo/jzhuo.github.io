@@ -6,7 +6,7 @@ The first bar on the page.
 */
 
 #top_page {
-	background-color: #1b242f;
+	background-color: #f4f4f4;
 	min-height: 560px;
     position: relative;
     box-sizing: content-box;
@@ -214,7 +214,7 @@ Beginning of the css for the information part in the body
 #jzhuo_information {
 	overflow:auto;
 	clear:both;
-	background: rgba(224, 224, 224, 0.75);
+	background: rgba(23, 20, 20, 0.58);
     margin-top: 4em;
 	box-sizing: border-box;
 	display: block;
