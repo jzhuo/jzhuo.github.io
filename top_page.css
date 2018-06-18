@@ -16,6 +16,8 @@ The first bar on the page.
 }
 
 #top_page_container {
+	overflow:auto;
+	clear:both;
     padding-top: 2em;
     padding-right: 15px;
     padding-bottom: 2em;
