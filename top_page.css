@@ -6,10 +6,7 @@ The first bar on the page.
 */
 
 #top_page {
-	/* im case the background image doesn't work
-	background-color: #1b242f;
-	*/
-	background: url(https://jzhuo.github.io/background_image.jpg) no-repeat center top;
+	background-color: #C0C0C0;
 	min-height: 560px;
     position: relative;
     box-sizing: content-box;
