@@ -113,6 +113,7 @@ The first bar on the page.
     	margin-bottom: 6px;
     	margin-left: 4px;
 	text-shadow: none;
+	text-decoration: none;
 	background: transparent;
 	cursor: pointer;
 	box-sizing: border-box;
