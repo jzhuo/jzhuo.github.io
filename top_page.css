@@ -33,7 +33,7 @@ The first bar on the page.
     box-sizing: border-box;
 }
 
-#jzhuo_name {
+#jzhuo_name_left {
 	float: left;
 	box-sizing: border-box;
 	dsplay: block;
@@ -50,7 +50,7 @@ The first bar on the page.
 	display: block;
 }
 
-#jzhuo_name h1 {
+#jzhuo_name h1 a {
 	text-decoration: none;
 	color: #ffffff;
 	-webkit-transition: 0.5s all;
@@ -70,7 +70,11 @@ The first bar on the page.
 	box-sizing: border-box;
 }
 
-
+#nav_items_right {
+	float: right;
+	box-sizing: border-box;
+	display: block;
+}
 
 
 
