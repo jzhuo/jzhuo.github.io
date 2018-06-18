@@ -121,6 +121,13 @@ The first bar on the page.
 }
 
 .scroll_link {
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	text-align: inherit;
+}
+
+.scroll_link a {
 	color: #ffffff;
 	font-size: 0.9em;
 	text-decoration: none;
