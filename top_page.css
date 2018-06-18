@@ -9,7 +9,7 @@ The first bar on the page.
 	/* im case the background image doesn't work
 	background-color: #1b242f;
 	*/
-	background: url(https://github.com/jzhuo/jzhuo.github.io/blob/master/background_image.jpg) no-repeat center top;
+	background: url(https://jzhuo.github.io/background_image.jpg) no-repeat center top;
 	min-height: 560px;
     position: relative;
     box-sizing: content-box;
