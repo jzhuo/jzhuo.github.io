@@ -231,6 +231,35 @@ The first bar on the page.
     border-top-color: rgb(175, 175, 175);
 }
 
+#left_information_list li {
+	display: block;
+	text-align: -webkit-match-parent;
+	box-sizing: border-box;
+}
+
+#information_text {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	display: block;
+}
+
+#information_text li {
+	width: 20%;
+	display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 400;
+	box-sizing: border-box;
+	
+}
+
 #image_right {
 	padding-top: 3em;
     padding-right: 3em;
