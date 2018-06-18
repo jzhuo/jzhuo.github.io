@@ -20,8 +20,8 @@ The first bar on the page.
     padding-right: 15px;
     padding-bottom: 2em;
     padding-left: 15px;
-    margin-left: 15%;
-	margin-right: 15%;
+    margin-left: 18%;
+	margin-right: 18%;
     box-sizing: border-box;
     display: block;
 }
@@ -87,7 +87,6 @@ The first bar on the page.
 	list-style: none;
 	margin-bottom: 0;
 	margin-top: 0;
-	margin-left: -60px;
 	box-sizing: border-box;
 	display: block;
 }
