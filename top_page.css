@@ -33,7 +33,11 @@ The first bar on the page.
     box-sizing: border-box;
 }
 
-
+#jzhuo_name {
+	float: left;
+	box-sizing: border-box;
+	dsplay: block;
+}
 
 
 
