@@ -39,7 +39,7 @@ The first bar on the page.
 	dsplay: block;
 }
 
-#jzhuo_name h1 {
+#jzhuo_name_left h1 {
 	margin: 0;
 	font-weight: bold;
 	color: #ffffff;
@@ -50,7 +50,7 @@ The first bar on the page.
 	display: block;
 }
 
-#jzhuo_name h1 a {
+#jzhuo_name_left h1 a {
 	text-decoration: none;
 	color: #ffffff;
 	-webkit-transition: 0.5s all;
@@ -59,7 +59,7 @@ The first bar on the page.
 	cursor: pointer;
 }
 
-#jzhuo_name h1 a span {
+#jzhuo_name_left h1 a span {
 	border: 5px solid #00BFFF;
 	padding-top: 0px;
 	padding-right: 14px;
@@ -100,7 +100,7 @@ The first bar on the page.
 	text-align: inherit;
 }	
 
-#nav_items_right ul #active_home_link {
+#active_home_link {
 	color: #00BFFF;
 	font-size: 0.9em;
 	padding-top: 10px;
