@@ -195,7 +195,7 @@ The first bar on the page.
 	font-weight: bold;
 	margin-top: 0.5em;
     margin-right: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 0px;
 	font-family: 'Asap', sans-serif;
 	line-height: 1.1;
@@ -205,7 +205,7 @@ The first bar on the page.
 #information_left h6 {
 	font-size: 1em;
     color: #C7C7C7;
-    margin-top: 0.8em;
+    margin-top: 1.2em;
     letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
 	font-weight: 500;
@@ -256,7 +256,7 @@ The first bar on the page.
 	display: inline-block;
     font-size: 1em;
     color: #fff;
-    margin-top: 1em;
+    margin-top: 1.2em;
     font-weight: 400;
 	box-sizing: border-box;
 }
@@ -271,7 +271,7 @@ The first bar on the page.
 	display: inline-block;
     font-size: 1em;
     color: #fff;
-    margin-top: 1em;
+    margin-top: 1.2em;
     font-weight: 400;
 	box-sizing: border-box;
 }
