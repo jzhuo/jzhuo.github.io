@@ -6,7 +6,7 @@ The first bar on the page.
 */
 
 #top_page {
-	background-color: #696969;
+	background-color: #1b242f;
 	min-height: 560px;
     position: relative;
     box-sizing: content-box;
@@ -59,7 +59,7 @@ The first bar on the page.
 }
 
 #jzhuo_name_left h1 a span {
-	border: 5px solid #1b242f;
+	border: 5px solid #38ACEC;
 	padding-top: 0px;
 	padding-right: 14px;
 	padding-bottom: 0px;
@@ -100,7 +100,7 @@ The first bar on the page.
 }	
 
 #active_about_link a {
-	color: #1b242f;
+	color: #38ACEC;
 	font-size: 0.9em;
 	padding-top: 0px;
     padding-right: 0px;
@@ -157,9 +157,27 @@ The first bar on the page.
 	display: block;
 }
 
+#information_left {
+	float: left;
+	padding-left: 3em;
+	padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+	width: 58.33333333%;
+	position: relative;
+    min-height: 1px;
+	box-sizing: border-box;
+	display: block;
+}
 
-
-
+#image_right {
+	padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+	width: 41.66666667%;
+	float: left;
+}
 
 
 
