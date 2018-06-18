@@ -29,6 +29,12 @@ The first bar on the page.
     display: block;
 }
 
+/*
+
+Beginning of the css for the top header
+
+*/
+
 #nav_bar {
 	padding-top: 1em;
 	overflow:auto;
@@ -154,6 +160,55 @@ The first bar on the page.
 	cursor: pointer;
 	box-sizing: border-box;
 }
+
+.scroll_link a:hover {
+	color: #38ACEC;
+	font-size: 0.9em;
+	text-decoration: none;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+   	padding-left: 0px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+	position: relative;
+    display: block;
+	margin-top: 6px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+	text-shadow: none;
+	background: transparent;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.scroll_link a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #38ACEC;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.scroll_link a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}	
+
+/*
+
+Beginning of the css for the information part in the body
+
+*/
 
 #jzhuo_information {
 	overflow:auto;
