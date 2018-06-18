@@ -257,7 +257,8 @@ Beginning of the css for the information part in the body
 #jzhuo_information {
 	overflow:auto;
 	clear:both;
-	background: rgba(23, 20, 20, 0.58);
+	/* originally .58 */
+	background: rgba(23, 20, 20, 0.8);
     margin-top: 4em;
 	box-sizing: border-box;
 	display: block;
