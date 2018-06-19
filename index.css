@@ -16,6 +16,7 @@ body {
 #header_wrapper {
     overflow:auto;
 	clear:both;
+	width: 100%;
     padding-top: 2em;
     padding-right: 15px;
     padding-bottom: 2em;
