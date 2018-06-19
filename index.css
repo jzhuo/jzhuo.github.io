@@ -38,6 +38,8 @@ This is the css file for the about page.
 }
 
 #header_name {
+	overflow:auto;
+	clear:both;
     margin-right: 0;
     margin-left: 0;
     float: left;
@@ -135,6 +137,85 @@ This is the css file for the about page.
     display: block;
     box-sizing: border-box;
 }
+
+#uncollapsed_nav_bar {
+	overflow:auto;
+	clear:both;
+	display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+	padding-right: 15px;
+    padding-left: 15px;
+	margin-right: 0;
+    margin-left: 0;
+	overflow-x: visible;
+    overflow-y: visible;
+	border-top-width: 0px;
+    border-top-style: initial;
+    border-top-color: initial;
+	width: auto;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+#nav_bar_links {
+	overflow:auto;
+	clear:both;
+	float: right!important;
+    margin-right: -15px;
+	margin: 0;
+	list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+	padding-left: 0;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+	display: block;
+	box-sizing: border-box;
+}
+
+#nav_bar_links li {
+	float: left;
+	position: relative;
+	text-align: -webkit-match-parent;
+    display: block;
+	box-sizing: border-box;
+}
+
+.scroll_link {
+	position: relative;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ddd;
+	background-color: transparent;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	cursor: pointer;
+	transition: all .4s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+	line-height: 20px;
+	outline: none;
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
