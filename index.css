@@ -26,7 +26,8 @@ body {
     display: block;
     z-index:999;
     position: fixed;
-    top:0
+    top: 0;
+    left: 0;
 }
 
 #navigation_bar {
