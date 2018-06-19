@@ -27,6 +27,8 @@ This is the css file for the about page.
 }
 
 #nav_horizontal_container {
+    overflow:auto;
+	clear:both;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
