@@ -12,39 +12,61 @@
   <body>
     
     <header id="navigation_bar_container">
-      <nav id="nav_bar">
-        <div id="nav_horizontal_container">
-          <div id="header_name">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="uncollapsed_nav_bar" aria-expanded="false">
-              <!-- beginning of icon bar -->
-              <span class="icon_bar"></span>
-              <span class="icon_bar"></span>
-              <span class="icon_bar"></span>
-              <!-- end of icon bar -->
-            </button>
-            <!-- end of nav_bar_button -->
-            <a id="jzhuo_name_link" href="/">
-              Jason Zhuo
+      <div id="nav_bar">
+        <div id=jzhuo_name_left>
+          <h1>
+            <a href="/"> 
+              <span> Jason Zhuo </span>
             </a>
-            <!-- ^end of jzhuo_name_link -->
-          <div>
-          <!-- ^end of header_name -->
-          <div id="uncollapsed_nav_bar">
-            <ul id="nav_bar_links">
-              <li>
-                <a class="scroll_link" href="/">
-                  Home
-                </a>
-                <!-- ^end of link tag for list item -->
-              </li>
-              <!-- ^end of list items for nav_bar_links -->
-            </ul>
-            <!-- ^end of nav_bar_links -->
-          </div>
-          <!-- ^end of uncollapsed_nav_bar-->
+          </h1>
         </div>
-        <!-- ^end of nav_horizontal_container -->
-      </nav>
+        <!-- end of jzhuo_name_left -->
+        <div id="nav_items_right">
+          <nav id="nav_links">
+            <ul id="nav_links_list">
+              <li id="active_about_link">
+                <a data-hover="About" href="/">
+                  About
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+              <li class="scroll_link">
+                <a data-hover="Education" href="/">
+                  Education
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+              <li class="scroll_link">
+                <a data-hover="Experience" href="/">
+                  Experience
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+              <li class="scroll_link">
+                <a data-hover="Projects" href="/">
+                  Projects
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+              <li class="scroll_link">
+                <a data-hover="Skills" href="/">
+                  Skills
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+              <li class="scroll_link">
+                <a data-hover="Acknowledgements" href="/">
+                  Acknowledgements
+                </a>
+              </li>
+              <!-- ^end of scroll link list item -->
+            </ul>
+            <!-- ^end of nav_links_list -->
+          </nav>
+          <!-- ^end of nav_links -->
+        </div>
+        <!-- ^end of nav_items_right -->
+      </div>
       <!-- ^end of nav_bar -->
     </header>
     <!-- ^end of navigation_bar_container -->
