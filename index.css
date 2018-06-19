@@ -16,7 +16,7 @@ This is the css file for the about page.
 }
 */
 
-#header_container {
+.container {
 	overflow:auto;
 	clear:both;
     padding-top: 2em;
