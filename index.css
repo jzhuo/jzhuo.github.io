@@ -16,7 +16,7 @@ Beginning of the css for the top header
 
 */
 
-.container {
+.header_container {
 	overflow:auto;
 	clear:both;
 	transition-property: all;
