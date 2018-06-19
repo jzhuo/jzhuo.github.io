@@ -1,9 +1,3 @@
-/* 
-
-This is the css file for the about page.
-
-*/
-
 /* probs don't need this
 #top_page {
 	background-color: #1b242f;
@@ -14,6 +8,12 @@ This is the css file for the about page.
     -webkit-background-size: cover;
     width: 100%;
 }
+*/
+
+/*
+
+Beginning of the css for the top header
+
 */
 
 .container {
@@ -29,12 +29,6 @@ This is the css file for the about page.
     box-sizing: border-box;
     display: block;
 }
-
-/*
-
-Beginning of the css for the top header
-
-*/
 
 #nav_bar {
 	padding-top: .8em;
@@ -206,9 +200,29 @@ Beginning of the css for the top header
 	transform: scaleX(1);
 }
 
-/*
+/* 
 
-Beginning of the css for the information part in the body
+This is the css file for the home page.
+
+*/
+
+#home {
+	position: relative;
+    height: 100%;
+    min-height: 550px;
+	background-color: #1b242f;
+	background-position-x: 50%;
+    background-position-y: 0px;
+	background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+	background-size: cover;
+	display: block;
+	box-sizing: border-box;
+}
+
+/* 
+
+This is the css file for the about page.
 
 */
 
