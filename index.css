@@ -32,6 +32,8 @@ body {
 }
 
 #navigation_bar {
+	overflow:auto;
+	clear:both;
     padding-top: .8em;
 	padding-bottom: .8em;
 	overflow:auto;
