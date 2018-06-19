@@ -77,12 +77,16 @@ body {
 
 
 
+/*
 
+    This is the css for the home section
 
+*/
 
-
-
-
+#home {
+	background-color: #1b242f;
+	top: 0;
+}
 
 
 
