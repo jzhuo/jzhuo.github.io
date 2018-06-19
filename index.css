@@ -42,7 +42,7 @@ body {
 #jzhuo_name_left {
 	float: left;
 	box-sizing: border-box;
-	dsplay: block;
+	display: block;
 }
 
 #jzhuo_name_left h1 {
