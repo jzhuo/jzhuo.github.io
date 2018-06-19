@@ -98,6 +98,10 @@ body {
 	display: block;
 }
 
+#active_link a {
+	color: 	#38ACEC;
+}
+
 .scroll_link {
 	display: inline-block;
 	position: relative;
