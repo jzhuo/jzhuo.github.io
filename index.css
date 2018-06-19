@@ -6,7 +6,6 @@
 
 body {
 	height: 100%;
-	width: 100%;
 	display: block;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -189,6 +188,7 @@ body {
 	background-size: cover;
 	position: relative;
 	height: 100%;
+	width: 100%;
 	/*
     min-height: 550px;
 	*/
