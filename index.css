@@ -4,6 +4,7 @@ This is the css file for the about page.
 
 */
 
+/* probs don't need this
 #top_page {
 	background-color: #1b242f;
 	min-height: 560px;
@@ -13,8 +14,9 @@ This is the css file for the about page.
     -webkit-background-size: cover;
     width: 100%;
 }
+*/
 
-#top_page_container {
+#header_container {
 	overflow:auto;
 	clear:both;
     padding-top: 2em;
