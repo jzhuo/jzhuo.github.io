@@ -267,11 +267,6 @@ body {
 	box-sizing: border-box;
 }
 
-#name_description_container {
-	display: block;
-	box-sizing: border-box;
-}
-
 #profile_list {
 	padding-top: 0px;
 	padding-right: 0px;
@@ -289,6 +284,9 @@ body {
 	position: relative;
 	box-sizing: border-box;
 	text-align: inherit;
+	float:left;
+	margin-left:28%;
+	margin-right:-28%;
 }
 
 #profile_list #jzhuo_profile_name {
