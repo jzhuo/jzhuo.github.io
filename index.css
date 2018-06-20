@@ -68,7 +68,7 @@ body {
 
 #jzhuo_name_left h1 a {
 	text-decoration: none;
-	color: rgb(221, 221, 221);
+	color: rgb(191, 191, 191);
 	-webkit-transition: 0.5s all;
 	background: transparent;
 	box-sizing: border-box;
@@ -82,7 +82,7 @@ body {
 	padding-bottom: 0px;
 	padding-left: 14px;
 	font-size: 1em;
-	color: #ffffff;
+	color: rgb(191, 191, 191);
 	box-sizing: border-box;
 }
 
@@ -297,7 +297,7 @@ body {
     line-height: 1.2;
 	font-family: inherit;
 	box-sizing: border-box;
-	color: #ffffff;
+	color: rgb(191, 191, 191);
     margin: 36px 0px 22px;
 	display: block;
 	box-sizing: border-box;
@@ -305,7 +305,7 @@ body {
 }
 
 #profile_list .typed {
-	color: rgb(191, 191, 191);
+	color: #ffffff;
 	font-size: 50px;
 	font-weight: 700;
     line-height: 1.2;
@@ -317,7 +317,7 @@ body {
 }
 
 #profile_list .typedCursor {
-	color: rgb(191, 191, 191);
+	color: #ffffff;
 	font-size: 50px;
 	font-weight: 700;
     line-height: 1.2;
