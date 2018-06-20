@@ -58,7 +58,7 @@ body {
 #jzhuo_name_left h1 {
 	margin: 0;
 	font-weight: bold;
-	color: #ffffff;
+	color: rgb(221, 221, 221);
 	font-family: 'Asap', sans-serif;
 	font-size: 36px;
 	line-height: 1.1;
@@ -68,7 +68,7 @@ body {
 
 #jzhuo_name_left h1 a {
 	text-decoration: none;
-	color: #ffffff;
+	color: rgb(221, 221, 221);
 	-webkit-transition: 0.5s all;
 	background: transparent;
 	box-sizing: border-box;
