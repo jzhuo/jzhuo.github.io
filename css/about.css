@@ -1,6 +1,22 @@
 /*
-Beginning of the css for the information part in the body
+Beginning of the css for the About section in the body
 */
+
+#About {
+	overflow: auto;
+	background-color: #1b242f;
+	top: 0;
+	background-size: cover;
+	position: relative;
+	min-height: 650px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
 
 #jzhuo_information {
 	overflow:auto;
