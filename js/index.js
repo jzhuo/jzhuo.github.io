@@ -13,6 +13,8 @@ $(document).ready(function () {
                 "ML Researcher"
             ],
             typeSpeed: 50,
+            startDelay: 750,
+            backDelay: 750,
             loop: true
         });
     });
