@@ -10,9 +10,7 @@
 }
 
 body {
-	/*
 	overflow: auto;
-	*/
 	height: 100%;
 	display: block;
 	margin-top: 0px;
@@ -24,7 +22,7 @@ body {
 #header_wrapper {
     overflow:auto;
 	clear:both;
-	width: 100%;
+	width: 970px;
     padding-top: 2em;
     padding-right: 15px;
     padding-bottom: 2em;
