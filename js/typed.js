@@ -411,7 +411,7 @@
 		// shuffle the strings
 		shuffle: false,
 		// time before backspacing
-		backDelay: 1500,
+		backDelay: 500,
 		// loop
 		loop: false,
 		// false = infinite
