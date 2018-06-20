@@ -12,8 +12,8 @@ $(document).ready(function () {
                 "Developer.",
                 "ML Researcher"
             ],
-            typeSpeed: 10000,
-            backDelay: 10000,
+            typeSpeed: 250,
+            backDelay: 2000,
             loop: true
         });
     });
