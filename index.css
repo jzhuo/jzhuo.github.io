@@ -267,6 +267,30 @@ body {
 	box-sizing: border-box;
 }
 
+#jzhuo_profile_name {
+	font-size: 50px;
+	font-weight: 700;
+    line-height: 1.2;
+	font-family: inherit;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+    margin: 36px 0px 22px;
+	display: block;
+	box-sizing: border-box;
+}
+
+#jzhuo_profile_name .dynamic_text {
+	color: rgb(191, 191, 191);
+	font-size: 50px;
+	font-weight: 700;
+    line-height: 1.2;
+	font-family: inherit;
+	box-sizing: border-box;
+    margin: 36px 0px 22px;
+	display: block;
+	box-sizing: border-box;
+}
+
 #About {
 	overflow: auto;
 	background-color: #006400;
