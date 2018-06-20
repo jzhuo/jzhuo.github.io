@@ -53,7 +53,7 @@ Beginning of the css for the About section in the body
   	background-clip: initial;
   	background-color: 38ACEC;
 	font-size: 1.2em;
-	color: #ffffff;
+	color: rgb(221, 221, 221);
 	display: inline-block;
 	padding-top: 0.5em;
   	padding-right: 1.5em;
@@ -73,7 +73,7 @@ Beginning of the css for the About section in the body
 
 #information_left h6 {
 	font-size: 1em;
-  	color: #C7C7C7;
+  	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
@@ -124,14 +124,14 @@ Beginning of the css for the About section in the body
 	width: 20%;
 	display: inline-block;
   	font-size: 1em;
-  	color: #fff;
+  	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	font-weight: 400;
 	box-sizing: border-box;
 }
 
 #information_text b{
-	color: #fff;
+	color: rgb(221, 221, 221);
 	font-weight: bold;
 	box-sizing: border-box;
 }
@@ -139,7 +139,7 @@ Beginning of the css for the About section in the body
 #information_text li:nth-child(2) {
 	display: inline-block;
   	font-size: 1em;
-  	color: #fff;
+  	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	font-weight: 400;
 	box-sizing: border-box;
