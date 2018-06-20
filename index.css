@@ -279,13 +279,6 @@ body {
 	display: block;
 }
 
-#profile_list jzhuo_name_list_item {
-	display: inline-block;
-	position: absolute;
-	box-sizing: border-box;
-	text-align: inherit;
-}
-
 #profile_list li {
 	display: inline-block;
 	position: relative;
