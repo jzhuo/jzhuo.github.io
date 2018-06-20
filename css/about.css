@@ -7,7 +7,7 @@ Beginning of the css for the information part in the body
 	clear:both;
 	/* originally rgba(23, 20, 20, .58) */
 	background: rgba(23, 20, 20, .58);
-  margin-top: 3em;
+  	margin-top: 3em;
 	box-sizing: border-box;
 	display: block;
 }
@@ -16,40 +16,40 @@ Beginning of the css for the information part in the body
 	float: left;
 	padding-left: 3em;
 	padding-top: 3em;
-  padding-right: 3em;
-  padding-bottom: 3em;
+  	padding-right: 3em;
+  	padding-bottom: 3em;
 	width: 58.33333333%;
 	position: relative;
-  min-height: 1px;
+  	min-height: 1px;
 	box-sizing: border-box;
 	display: block;
 }
 
 #information_left h1 {
 	background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: 38ACEC;
+  	background-position-x: initial;
+  	background-position-y: initial;
+  	background-size: initial;
+  	background-repeat-x: initial;
+  	background-repeat-y: initial;
+  	background-attachment: initial;
+  	background-origin: initial;
+  	background-clip: initial;
+  	background-color: 38ACEC;
 	font-size: 1.2em;
-  color: #ffffff;
+	color: #ffffff;
 	display: inline-block;
 	padding-top: 0.5em;
-  padding-right: 1.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1.5em;
-  position: relative;
+  	padding-right: 1.5em;
+  	padding-bottom: 0.5em;
+  	padding-left: 1.5em;
+  	position: relative;
 	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
 	font-weight: bold;
 	margin-top: 0.5em;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
+  	margin-right: 0px;
+  	margin-bottom: 10px;
+  	margin-left: 0px;
 	font-family: 'Asap', sans-serif;
 	line-height: 1.1;
 	box-sizing: border-box;
@@ -57,15 +57,15 @@ Beginning of the css for the information part in the body
 
 #information_left h6 {
 	font-size: 1em;
-  color: #C7C7C7;
-  margin-top: 1.2em;
-  letter-spacing: 3px;
+  	color: #C7C7C7;
+  	margin-top: 1.2em;
+  	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
 	font-weight: 500;
-  line-height: 1.1;
+  	line-height: 1.1;
 	margin-bottom: 10px;
 	font-weight: 500;
-  line-height: 1.1;
+  	line-height: 1.1;
 	box-sizing: border-box;
 	display: block;
 }
@@ -74,16 +74,16 @@ Beginning of the css for the information part in the body
 	margin-bottom: 10px;
 	box-sizing: border-box;
 	display: block;
-  list-style-type: none;
+  	list-style-type: none;
 	padding-top: 0.5em;
 	padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  	padding-bottom: 0px;
+  	padding-left: 0px;
 	margin-top: 2em;
-  border-top: 1px solid #AFAFAF;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: rgb(175, 175, 175);
+  	border-top: 1px solid #AFAFAF;
+  	border-top-width: 1px;
+  	border-top-style: solid;
+  	border-top-color: rgb(175, 175, 175);
 }
 
 #left_information_list li {
@@ -96,9 +96,9 @@ Beginning of the css for the information part in the body
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  	padding-right: 0px;
+  	padding-bottom: 0px;
+  	padding-left: 0px;
 	box-sizing: border-box;
 	list-style: none;
 	display: block;
@@ -107,10 +107,10 @@ Beginning of the css for the information part in the body
 #information_text li:nth-child(1) {
 	width: 20%;
 	display: inline-block;
-  font-size: 1em;
-  color: #fff;
-  margin-top: 1.2em;
-  font-weight: 400;
+  	font-size: 1em;
+  	color: #fff;
+  	margin-top: 1.2em;
+  	font-weight: 400;
 	box-sizing: border-box;
 }
 
@@ -122,9 +122,9 @@ Beginning of the css for the information part in the body
 
 #information_text li:nth-child(2) {
 	display: inline-block;
-  font-size: 1em;
-  color: #fff;
-  margin-top: 1.2em;
-  font-weight: 400;
+  	font-size: 1em;
+  	color: #fff;
+  	margin-top: 1.2em;
+  	font-weight: 400;
 	box-sizing: border-box;
 }
