@@ -298,7 +298,7 @@ body {
 	box-sizing: border-box;
 }
 
-#profile_list #jzhuo_profile_name {
+#profile_list .typed {
 	color: rgb(191, 191, 191);
 	font-size: 50px;
 	font-weight: 700;
@@ -310,7 +310,7 @@ body {
 	box-sizing: border-box;
 }
 
-#profile_list .typed {
+#profile_list .typed-cursor {
 	color: rgb(191, 191, 191);
 	font-size: 50px;
 	font-weight: 700;
