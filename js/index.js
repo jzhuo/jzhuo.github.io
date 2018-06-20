@@ -12,7 +12,7 @@ $(document).ready(function () {
                 "Developer.",
                 "ML Researcher"
             ],
-            typeSpeed: 100,
+            typeSpeed: 50,
             loop: true
         });
     });
