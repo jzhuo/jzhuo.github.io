@@ -10,7 +10,7 @@ $(document).ready(function () {
             strings: [
                 "Student.",
                 "Developer.",
-                "ML Researcher"
+                "Researcher."
             ],
             typeSpeed: 250,
             backDelay: 2000,
