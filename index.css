@@ -310,7 +310,7 @@ body {
 	box-sizing: border-box;
 }
 
-#profile_list .typed-cursor {
+#profile_list .typedCursor {
 	color: rgb(191, 191, 191);
 	font-size: 50px;
 	font-weight: 700;
