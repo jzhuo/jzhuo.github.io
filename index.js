@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     'use strict';
 
-    var typed = $(".dynamic_text");
+    var typed = $(".typed");
 
     $(function () {
         typed.typed({
