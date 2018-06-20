@@ -1,5 +1,7 @@
 /*
-Beginning of the css for the About section in the body
+
+	Beginning of the css for the About section in the body
+
 */
 
 #About {
@@ -143,4 +145,26 @@ Beginning of the css for the About section in the body
   	margin-top: 1.2em;
   	font-weight: 400;
 	box-sizing: border-box;
+}
+
+/*
+
+	Beginning of the css for the Education section in the body
+
+*/
+
+#Education {
+	overflow: auto;
+	background-color: #009900;
+	background-size: cover;
+	position: relative;
+	min-height: 650px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: 30px solid rgb(221, 221, 221);
 }
