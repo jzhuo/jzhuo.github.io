@@ -268,7 +268,8 @@ body {
 }
 
 #name_description_container {
-	
+	display: block;
+	box-sizing: border-box;
 }
 
 #profile_list {
@@ -279,8 +280,8 @@ body {
 	list-style: none;
 	margin-bottom: 0;
 	margin-top: 0;
-	box-sizing: border-box;
 	display: block;
+	box-sizing: border-box;
 }
 
 #profile_list li {
