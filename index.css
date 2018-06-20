@@ -239,10 +239,10 @@ body {
     height: auto;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 	vertical-align: middle;
-	border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+	border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
 	border-top-color: rgb(223, 223, 223);
     border-top-style: solid;
     border-top-width: 3px;
@@ -265,6 +265,10 @@ body {
     margin-bottom: 0px;
     margin-left: auto;
 	box-sizing: border-box;
+}
+
+#name_description_container {
+	
 }
 
 #profile_list {
