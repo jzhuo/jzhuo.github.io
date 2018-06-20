@@ -14,7 +14,8 @@ $(document).ready(function () {
             ],
             typeSpeed: 250,
             backDelay: 2000,
-            loop: true
+            loop: true,
+            showCursor: false
         });
     });
 
