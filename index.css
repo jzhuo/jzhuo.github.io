@@ -22,7 +22,7 @@ body {
 #header_wrapper {
     overflow:auto;
 	clear:both;
-	width: 750px;
+	width: 65%;
     padding-top: 2em;
     padding-right: 15px;
     padding-bottom: 2em;
@@ -34,6 +34,8 @@ body {
     z-index:999;
     position: fixed;
     top: 0;
+	right: 0;
+	left: 0;
 }
 
 #navigation_bar {
