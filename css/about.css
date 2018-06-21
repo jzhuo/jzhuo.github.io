@@ -156,7 +156,23 @@
 
 #Experience {
 	overflow: auto;
-	background-color: #009900;
+	background-color: #1b242f;
+	background-size: cover;
+	position: relative;
+	min-height: 650px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: 30px solid rgb(221, 221, 221);
+}
+
+#Projects {
+	overflow: auto;
+	background-color: #1b242f;
 	background-size: cover;
 	position: relative;
 	min-height: 650px;
