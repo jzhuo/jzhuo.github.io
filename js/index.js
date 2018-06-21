@@ -3,6 +3,10 @@ $(document).ready(function () {
 
     'use strict';
 
+    // *****************************************************
+    // This is the js for dynamic text
+    // *****************************************************
+    
     var typed = $(".typed");
 
     $(function () {
