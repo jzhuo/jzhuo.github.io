@@ -114,7 +114,7 @@
 	box-sizing: border-box;
 }
 
-#information_text {
+#education_info_text {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0px;
@@ -126,7 +126,7 @@
 	display: block;
 }
 
-#information_text li:nth-child(1) {
+#education_info_text li:nth-child(1) {
 	width: 20%;
 	display: inline-block;
   	font-size: 1em;
@@ -136,13 +136,13 @@
 	box-sizing: border-box;
 }
 
-#information_text b{
+#education_info_text b{
 	color: rgb(221, 221, 221);
 	font-weight: bold;
 	box-sizing: border-box;
 }
 
-#information_text li:nth-child(2) {
+#education_info_text li:nth-child(2) {
 	display: inline-block;
   	font-size: 1em;
   	color: rgb(221, 221, 221);
