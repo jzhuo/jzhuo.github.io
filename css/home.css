@@ -73,7 +73,8 @@ body {
 }
 
 #jzhuo_name_left h1 a span {
-	border: 5px solid #38ACEC;
+	/* originally #38ACEC */
+	border: 5px solid #39485a;
 	padding-top: 0px;
 	padding-right: 14px;
 	padding-bottom: 0px;
