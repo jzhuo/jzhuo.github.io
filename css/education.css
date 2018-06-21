@@ -78,16 +78,14 @@
 }
 
 #jzhuo_info_details h6 {
-	font-size: 1em;
+	font-size: 30px;
   	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
-	font-weight: 500;
+	font-weight: bold;
   	line-height: 1.1;
 	margin-bottom: 10px;
-	font-weight: 500;
-  	line-height: 1.1;
 	box-sizing: border-box;
 	display: block;
 	text-align: center;
