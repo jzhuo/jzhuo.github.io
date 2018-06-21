@@ -23,7 +23,6 @@
 #jzhuo_information {
 	overflow:auto;
 	clear:both;
-	/* originally rgba(23, 20, 20, .58) */
 	background: rgba(23, 20, 20, .58);
   	margin-top: 7%;
 	box-sizing: border-box;
@@ -40,11 +39,12 @@
 	padding-top: 3em;
   	padding-right: 3em;
   	padding-bottom: 3em;
-	width: 58.33333333%;
 	position: relative;
   	min-height: 1px;
 	box-sizing: border-box;
 	display: block;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 #jzhuo_info_details h1 {
