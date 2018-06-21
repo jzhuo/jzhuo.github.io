@@ -126,6 +126,7 @@
 	display: block;
 }
 
+/* this is the left side information of education */
 #education_info_text li:nth-child(1) {
 	width: 20%;
 	display: inline-block;
@@ -142,6 +143,7 @@
 	box-sizing: border-box;
 }
 
+/* this is the right side information of education */
 #education_info_text li:nth-child(2) {
 	display: inline-block;
   	font-size: 1em;
