@@ -43,8 +43,8 @@
   	min-height: 1px;
 	box-sizing: border-box;
 	display: block;
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 18%;
+	padding-right: 18%;
 }
 
 #jzhuo_info_details h1 {
@@ -58,6 +58,7 @@
   	background-origin: initial;
   	background-clip: initial;
   	background-color: 38ACEC;
+	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
 	font-size: 1.2em;
 	color: rgb(221, 221, 221);
 	display: inline-block;
@@ -78,6 +79,18 @@
 }
 
 #jzhuo_info_details h6 {
+	background-image: initial;
+  	background-position-x: initial;
+  	background-position-y: initial;
+  	background-size: initial;
+  	background-repeat-x: initial;
+  	background-repeat-y: initial;
+  	background-attachment: initial;
+  	background-origin: initial;
+  	background-clip: initial;
+  	background-color: 38ACEC;
+	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+	/* seeing if up top works */
 	font-size: 30px;
   	color: rgb(221, 221, 221);
   	margin-top: 1em;
