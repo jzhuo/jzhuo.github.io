@@ -90,6 +90,7 @@
   	line-height: 1.1;
 	box-sizing: border-box;
 	display: block;
+	text-align: center;
 }
 
 #info_details_list {
