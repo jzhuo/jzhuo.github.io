@@ -128,13 +128,13 @@
 
 /* this is the left side information of education */
 #education_info_text li:nth-child(1) {
-	width: 20%;
 	display: inline-block;
   	font-size: 1em;
   	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	font-weight: 400;
 	box-sizing: border-box;
+	float: left;
 }
 
 #education_info_text b{
@@ -151,6 +151,7 @@
   	margin-top: 1.2em;
   	font-weight: 400;
 	box-sizing: border-box;
+	float: right;
 }
 
 /*
