@@ -80,7 +80,7 @@
 #jzhuo_info_details h6 {
 	font-size: 30px;
   	color: rgb(221, 221, 221);
-  	margin-top: 1.2em;
+  	margin-top: 1em;
   	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
 	font-weight: bold;
@@ -101,6 +101,7 @@
   	padding-bottom: 0px;
   	padding-left: 0px;
 	margin-top: 2em;
+	margin-bottom: 1em;
   	border-top: 1px solid #AFAFAF;
   	border-top-width: 1px;
   	border-top-style: solid;
