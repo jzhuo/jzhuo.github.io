@@ -145,7 +145,7 @@
 	display: inline-block;
   	font-size: 24px;
   	color: rgb(221, 221, 221);
-  	margin-top: .8em;
+  	margin-top: 1em;
   	font-weight: 400;
 	box-sizing: border-box;
 	float: left;
@@ -161,7 +161,7 @@
 	display: inline-block;
   	font-size: 24px;
   	color: rgb(221, 221, 221);
-  	margin-top: 1.2em;
+  	margin-top: 1em;
   	font-weight: 400;
 	box-sizing: border-box;
 	float: right;
