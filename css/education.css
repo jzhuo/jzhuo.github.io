@@ -97,11 +97,13 @@
   	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
 	font-weight: bold;
-  	line-height: 1.1;
+  	line-height: 1.5;
 	margin-bottom: 10px;
 	box-sizing: border-box;
 	display: block;
 	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%
 }
 
 #education_information_list {
