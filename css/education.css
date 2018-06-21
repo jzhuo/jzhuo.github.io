@@ -126,27 +126,25 @@
 	display: block;
 }
 
-/* this is the left side information of education */
-#education_info_text li:nth-child(1) {
+#education_info_text .university_name {
 	display: inline-block;
-  	font-size: 1em;
+  	font-size: 24px;
   	color: rgb(221, 221, 221);
-  	margin-top: 1.2em;
+  	margin-top: .8em;
   	font-weight: 400;
 	box-sizing: border-box;
 	float: left;
 }
 
-#education_info_text b{
+#education_info_text .university_name b{
 	color: rgb(221, 221, 221);
 	font-weight: bold;
 	box-sizing: border-box;
 }
 
-/* this is the right side information of education */
-#education_info_text li:nth-child(2) {
+#education_info_text .university_location {
 	display: inline-block;
-  	font-size: 1em;
+  	font-size: 24px;
   	color: rgb(221, 221, 221);
   	margin-top: 1.2em;
   	font-weight: 400;
