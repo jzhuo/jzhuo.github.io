@@ -6,7 +6,8 @@
 
 #About {
 	overflow: auto;
-	background-color: #1b242f;
+	/* originally #1b242f */
+	background-color: #39485a;
 	background-size: cover;
 	position: relative;
 	min-height: 650px;
