@@ -1,39 +1,19 @@
 /*
-    This is the css for the header
+
+    This is the css for the navigation bar
+
 */
 
-* { 
-	margin:0; 
-	padding:0; 
-}
-
-body {
-	overflow: auto;
-	height: 100%;
+#nav_bar_wrapper {
 	width: 100%;
-	display: block;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-#header_wrapper {
-    overflow:auto;
-	clear:both;
-	width: 100%;
-    padding-top: 1em;
-    padding-right: 18%;
-    padding-bottom: 1em;
-    padding-left: 18%;
-    box-sizing: border-box;
-    display: block;
-    z-index:999;
-    position: absolute;
+    padding: 6px 0;
+    position: fixed;
     top: 0;
-	right: 0;
-	left: 0;
+    left: 0;
 	background-color: #1b242f;
+    z-index:999;
+    display: block;
+    box-sizing: border-box;
 }
 
 #navigation_bar {
