@@ -29,7 +29,7 @@ body {
     box-sizing: border-box;
     display: block;
     z-index:999;
-    position: fixed;
+    position: absolute;
     top: 0;
 	right: 0;
 	left: 0;
@@ -39,6 +39,7 @@ body {
 #navigation_bar {
 	overflow:auto;
 	clear:both;
+	width:100%
     padding-top: .5em;
 	padding-bottom: .5em;
 	overflow:auto;
@@ -200,6 +201,7 @@ body {
 	background-size: cover;
 	position: relative;
 	height: 100vh;
+	min-height:100vh;
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
@@ -209,7 +211,7 @@ body {
 	margin-right: 0px;
 }
 
-#page_wrapper {
+.page_wrapper {
     width: 100%;
     height: 100%;
 	box-sizing: border-box;
