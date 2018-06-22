@@ -219,11 +219,23 @@ body {
 	display: table;
 }
 
-.page_vertical_wrapper {
+.first_page_vertical_wrapper {
 	position: relative;
-	display: table-cell;
+	display: block;
 	vertical-align: middle;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 25%;
+	text-align: center;	
+	box-sizing: border-box;
+}
+
+.second_page_vertical_wrapper {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	padding-top: 20px;
+	margin-top: 0%;
 	text-align: center;	
 	box-sizing: border-box;
 }
