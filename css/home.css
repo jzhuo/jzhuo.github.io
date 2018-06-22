@@ -216,7 +216,7 @@ body {
 	display: table;
 }
 
-#page_vertical_wrapper {
+.page_vertical_wrapper {
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
