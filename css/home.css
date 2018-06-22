@@ -314,7 +314,7 @@ body {
 	font-family: inherit;
 	box-sizing: border-box;
 	color: rgb(191, 191, 191);
-    margin: 36px 0px 22px;
+    margin-top: 0;
 	display: inline-block;
 	box-sizing: border-box;
 }
