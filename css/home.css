@@ -307,7 +307,7 @@ body {
 	margin-right:-36.5%;
 }
 
-#profile_list #jzhuo_profile_name {
+#profile_list .jzhuo_profile_name {
 	font-size: 50px;
 	font-weight: 700;
     line-height: 1.2;
