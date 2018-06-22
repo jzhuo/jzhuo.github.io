@@ -267,9 +267,8 @@ body {
 	box-sizing: border-box;
 }
 
-#profile_text_container{
-	display: block;
-	box-sizing: border-box;
+#profile_text {
+	box-sizing: border-box;	
 }
 
 #profile_list {
