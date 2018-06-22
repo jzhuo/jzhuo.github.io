@@ -223,6 +223,7 @@ body {
 	position: relative;
 	display: block;
 	vertical-align: middle;
+	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 25%;
@@ -234,7 +235,8 @@ body {
 	position: relative;
 	display: block;
 	vertical-align: middle;
-	padding-top: 20px;
+	width: 100%;
+	padding-top: 0px;
 	margin-top: 0%;
 	text-align: center;	
 	box-sizing: border-box;
