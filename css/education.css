@@ -190,6 +190,26 @@
 	float: right;
 }
 
+#education_info_text #honors_college {
+	display: inline-block;
+  	font-size: 20px;
+  	color: rgb(221, 221, 221);
+  	margin-top: .8em;
+  	font-weight: 400;
+	box-sizing: border-box;
+	float: left;
+}
+
+#education_info_text #departmental_honors {
+	display: inline-block;
+  	font-size: 20px;
+  	color: rgb(221, 221, 221);
+  	margin-top: .8em;
+  	font-weight: 400;
+	box-sizing: border-box;
+	float: right;
+}
+
 /*
 
 	Beginning of the css for the Experience section in the body
