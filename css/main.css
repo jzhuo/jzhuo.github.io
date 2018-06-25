@@ -567,55 +567,9 @@
 	margin-right: 0px;
 }
 
-/*Smooth Scroll Button animation*/
-@-webkit-keyframes dot-animation {
-	0% {
-		top: -webkit-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 1;
-	}
-	40% {
-		top: 50%;
-		opacity: 0;
-	}
-	100% {
-		top: -webkit-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 0;
-	}
+.animation {
+    	-webkit-transition: all .4s ease-in-out;
+    	-moz-transition: all .4s ease-in-out;
+    	-o-transition: all .4s ease-in-out;
+    	transition: all .4s ease-in-out;
 }
-@-moz-keyframes dot-animation {
-	0% {
-		top: -moz-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 1;
-	}
-	40% {
-		top: 50%;
-		opacity: 0;
-	}
-	100% {
-		top: -moz-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 0;
-	}
-}
-@keyframes dot-animation {
-	0% {
-		top: -webkit-calc(50% - 6px);
-		top: -moz-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 1;
-	}
-	40% {
-		top: 50%;
-		opacity: 0;
-	}
-	100% {
-		top: -webkit-calc(50% - 6px);
-		top: -moz-calc(50% - 6px);
-		top: calc(50% - 6px);
-		opacity: 0;
-	}
-}
-
