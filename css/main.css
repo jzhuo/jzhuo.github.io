@@ -20,23 +20,6 @@
 	background-color: rgb(221, 221, 221);
 }
 
-#navigation_bar {
-	overflow:auto;
-	clear:both;
-	width:100%;
-    padding-top: .5em;
-	padding-bottom: .5em;
-	overflow:auto;
-	clear:both;
-    display:block;
-    box-sizing: border-box;
-}
-
-#jzhuo_name_left {
-	float: left;
-	box-sizing: border-box;
-	display: block;
-}
 
 #jzhuo_name_left h1 {
 	margin: 0;
@@ -68,29 +51,6 @@
 	font-size: 1em;
 	color: rgb(191, 191, 191);
 	box-sizing: border-box;
-}
-
-#nav_items_right {
-	float: right;
-	box-sizing: border-box;
-	display: block;
-}
-
-#nav_links {
-	display: block;
-	box-sizing: border-box;
-}
-
-#nav_links_list {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	list-style: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	box-sizing: border-box;
-	display: block;
 }
 
 .active_link a {
