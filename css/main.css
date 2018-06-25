@@ -568,8 +568,8 @@
 }
 
 .animation {
-    	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
     	-moz-transition: all .4s ease-in-out;
-    	-o-transition: all .4s ease-in-out;
-    	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
 }
