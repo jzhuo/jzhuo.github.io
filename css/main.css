@@ -93,18 +93,18 @@
 	display: block;
 }
 
-#active_link a {
+.active_link a {
 	color: 	#38ACEC;
 }
 
-.scroll_link {
+.passive_link {
 	display: inline-block;
 	position: relative;
 	box-sizing: border-box;
 	text-align: inherit;
 }
 
-.scroll_link a {
+.passive_link a {
 	font-size: 16px;
     font-weight: 700;
     color: rgb(221, 221, 221);
@@ -128,7 +128,7 @@
 	box-sizing: border-box;
 }
 
-.scroll_link a:hover {
+.passive_link a:hover {
 	color: #38ACEC;
 	font-size: 16px;
     font-weight: 700;
@@ -153,7 +153,7 @@
 	box-sizing: border-box;
 }
 
-.scroll_link a:before {
+.passive_link a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -168,7 +168,7 @@
 	transition: all 0.3s ease-in-out 0s;
 }
 
-.scroll_link a:hover:before {
+.passive_link a:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
