@@ -29,7 +29,7 @@
 	display: block;
 }
 
-.active_link a {
+.active_link {
 	color: 	#38ACEC;
 }
 
@@ -39,24 +39,6 @@
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
-}
-
-.passive_link a {
-	font-size: 16px;
-    font-weight: 700;
-    color: rgb(221, 221, 221);
-	text-decoration: none;
-	outline: none;
-	position: relative;
-    display: block;
-	margin-top: 6px;
-    margin-right: 4px;
-    margin-bottom: 6px;
-    margin-left: 4px;
-	text-shadow: none;
-	background: transparent;
-	cursor: pointer;
-	box-sizing: border-box;
 }
 
 .passive_link hover {
