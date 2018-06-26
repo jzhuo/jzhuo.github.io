@@ -86,35 +86,7 @@
 	box-sizing: border-box;
 }
 
-.first_page_vertical_wrapper {
-	position: relative;
-	display: block;
-	vertical-align: middle;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 15%;
-	text-align: center;	
-	box-sizing: border-box;
-}
-
-.second_page_vertical_wrapper {
-	position: relative;
-	display: block;
-	vertical-align: middle;
-	width: 100%;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-top: 0%;
-	text-align: center;	
-	box-sizing: border-box;
-}
-
-#profile_picture {
-	box-sizing: border-box;	
-}
-
-#profile_picture img {
+#profile_image img {
 	width: 170px;
 	display: block;
     max-width: 100%;
