@@ -20,9 +20,14 @@
 	background-color: rgb(221, 221, 221);
 }
 
-#nav_links_wrapper {
+#header_name {
+	border: 5px solid #39485a;
+	color: rgb(191, 191, 191);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
 	display: block;
-	y-overflow: auto;
 }
 
 #jzhuo_name_left h1 {
