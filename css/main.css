@@ -29,47 +29,16 @@
 	display: block;
 }
 
-#jzhuo_name_left h1 {
-	margin: 0;
-	font-weight: bold;
-	color: rgb(221, 221, 221);
-	font-family: 'Asap', sans-serif;
-	font-size: 36px;
-	line-height: 1.1;
-	box-sizing: border-box;
-	display: block;
-}
-
-#jzhuo_name_left h1 a {
-	text-decoration: none;
-	color: rgb(191, 191, 191);
-	-webkit-transition: 0.5s all;
-	background: transparent;
-	box-sizing: border-box;
-	cursor: pointer;
-}
-
-#jzhuo_name_left h1 a span {
-	/* originally #38ACEC */
-	border: 5px solid #39485a;
-	padding-top: 0px;
-	padding-right: 14px;
-	padding-bottom: 0px;
-	padding-left: 14px;
-	font-size: 1em;
-	color: rgb(191, 191, 191);
-	box-sizing: border-box;
-}
-
 .active_link a {
 	color: 	#38ACEC;
 }
 
 .passive_link {
-	display: inline-block;
+	color: rgb(221, 221, 221);
+	font-size: 16px;
+    font-weight: 700;
+	background-color: transparent;
 	position: relative;
-	box-sizing: border-box;
-	text-align: inherit;
 }
 
 .passive_link a {
@@ -77,12 +46,6 @@
     font-weight: 700;
     color: rgb(221, 221, 221);
 	text-decoration: none;
-	padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-   	padding-left: 0px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
 	outline: none;
 	position: relative;
     display: block;
@@ -96,32 +59,11 @@
 	box-sizing: border-box;
 }
 
-.passive_link a:hover {
+.passive_link hover {
 	color: #38ACEC;
-	font-size: 16px;
-    font-weight: 700;
-    color: rgb(221, 221, 221);
-	text-decoration: none;
-	padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-   	padding-left: 0px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-	outline: none;
-	position: relative;
-    display: block;
-	margin-top: 6px;
-    margin-right: 4px;
-    margin-bottom: 6px;
-    margin-left: 4px;
-	text-shadow: none;
-	background: transparent;
-	cursor: pointer;
-	box-sizing: border-box;
 }
 
-.passive_link a:before {
+.passive_link before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -136,7 +78,7 @@
 	transition: all 0.3s ease-in-out 0s;
 }
 
-.passive_link a:hover:before {
+.passive_link hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
