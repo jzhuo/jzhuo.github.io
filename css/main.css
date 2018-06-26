@@ -71,21 +71,12 @@
 */
 
 #Home {
-	height: 100vh;
+	height: 100%;
 	min-height:100vh;
-	width: 100%;
-	overflow: auto;
-	clear:both;
 	background-color: #1b242f;
-	top: 0;
 	background-size: cover;
+	background-repeat: no-repeat;
 	position: relative;
-	display: block;
-	box-sizing: border-box;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
 }
 
 .page_wrapper {
