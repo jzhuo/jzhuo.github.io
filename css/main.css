@@ -20,9 +20,15 @@
 	background-color: rgb(221, 221, 221);
 }
 
-#nav_links_list {
+#nav_links_wrapper {
 	display: block;
 	y-overflow: auto;
+}
+
+#nav_links_list {
+	padding: 0;
+	list-style: none;
+	margin: 7.5px -15px;
 }
 
 #jzhuo_name_left h1 {
