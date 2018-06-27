@@ -86,6 +86,13 @@
 	box-sizing: border-box;
 }
 
+#center_wrapper {
+    vertical-align: middle;
+    padding-top: 20px;
+	position: relative;
+    display: table-cell;
+}
+
 #profile_image img {	
 	width: 170px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
