@@ -104,33 +104,7 @@
     margin-left: auto;
 }
 
-/* #profile_text {
-	box-sizing: border-box;	
-}
- */
-/* #profile_list {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	list-style: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	display: block;
-	box-sizing: border-box;
-}
-
-#profile_list li {
-	display: inline-block;
-	position: relative;
-	box-sizing: border-box;
-	text-align: inherit;
-	float:left;
-	margin-left:36.5%;
-	margin-right:-36.5%;
-} */
-
-/* #profile_list .jzhuo_profile_name {
+#jzhuo_profile_description {
 	font-size: 50px;
 	font-weight: 700;
     line-height: 1.2;
