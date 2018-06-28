@@ -316,6 +316,18 @@
 .experience_list_wrapper {
 	padding-top: 3em;	
 }
+
+#job_information_details li {
+	text-align: center;
+    background: #39485a;
+    padding: 11px 0;
+    width: 60%;
+	list-style: none;
+    margin-top: 30px;
+    font-size: 1em;
+    color: rgb(221, 221, 221);
+    display: block;	
+}
 	
 #Projects {
 	overflow: auto;
