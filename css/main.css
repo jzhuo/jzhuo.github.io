@@ -106,6 +106,8 @@
 */
 
 #Home {
+	overflow: auto;
+	clear: both;
 	height: 100%;
 	min-height:100vh;
 	background-color: #1b242f;
@@ -157,6 +159,8 @@
 */
 
 #Education {
+	overflow: auto;
+	clear: both;
 	height: 100%;
 	min-height:75vh;
 	background-color: #39485a;
@@ -164,7 +168,6 @@
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
-	overflow: auto;
 }
 
 #jzhuo_information {
@@ -345,6 +348,8 @@
 */
 
 #Experience {
+	overflow: auto;
+	clear: both;
 	height: 100%;
 	min-height:100vh;
 	background-color: #1b242f;
@@ -354,6 +359,8 @@
 }
 
 #Projects {
+	overflow: auto;
+	clear: both;
 	height: 100%;
 	min-height:100vh;
 	background-color: #39485a;
