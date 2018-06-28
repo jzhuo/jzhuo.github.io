@@ -39,10 +39,6 @@
 	padding-left: 10px;
 }
 
-#mb-navbar .active_link hover {
-	color: #38ACEC;
-}
-
 #mb-navbar .passive_link {
 	color: rgb(221, 221, 221);
 	font-size: 18px;
