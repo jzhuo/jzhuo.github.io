@@ -317,6 +317,11 @@
 	padding-top: 3em;	
 }
 
+#job_information_details {
+	text-align: right;
+    margin-left: 13em;	
+}
+
 #job_information_details li {
 	text-align: center;
     background: #39485a;
