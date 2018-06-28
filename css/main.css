@@ -24,16 +24,16 @@
 	color: rgb(191, 191, 191);
     padding-bottom: 15px;
     padding-top: 15px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 	display: block;
 }
 
-.active_link {
+#mb-navbar .active_link {
 	color: 	#38ACEC;
 }
 
-.passive_link {
+#mb-navbar .passive_link {
 	color: rgb(221, 221, 221);
 	font-size: 13px;
     font-weight: 700;
@@ -41,11 +41,11 @@
 	position: relative;
 }
 
-.passive_link hover {
+#mb-navbar .passive_link hover {
 	color: #38ACEC;
 }
 
-.passive_link before {
+#mb-navbar .passive_link before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -60,7 +60,7 @@
 	transition: all 0.3s ease-in-out 0s;
 }
 
-.passive_link hover:before {
+#mb-navbar .passive_link hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
