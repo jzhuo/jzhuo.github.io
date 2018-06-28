@@ -31,10 +31,12 @@
 
 #mb-navbar .active_link {
 	color: 	#38ACEC;
-	font-size: 13px;
+	font-size: 15px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 #mb-navbar .active_link hover {
@@ -64,10 +66,12 @@
 
 #mb-navbar .passive_link {
 	color: rgb(221, 221, 221);
-	font-size: 13px;
+	font-size: 15px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 #mb-navbar .passive_link hover {
