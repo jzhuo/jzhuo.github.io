@@ -76,6 +76,38 @@
 
 /*
 
+    This is the css for the general sections
+
+*/
+
+.section_headers {
+	background-image: initial;
+  	background-position-x: initial;
+  	background-position-y: initial;
+  	background-size: initial;
+  	background-repeat-x: initial;
+  	background-repeat-y: initial;
+  	background-attachment: initial;
+  	background-origin: initial;
+  	background-clip: initial;
+	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+	font-size: 30px;
+  	color: rgb(221, 221, 221);
+  	margin-top: 1em;
+  	letter-spacing: 3px;
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+  	line-height: 1.5;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%
+}
+
+/*
+
     This is the css for the Home section
 
 */
@@ -164,32 +196,6 @@
 	display: block;
 	padding-left: 18%;
 	padding-right: 18%;
-}
-
-#jzhuo_info_details h6 {
-	background-image: initial;
-  	background-position-x: initial;
-  	background-position-y: initial;
-  	background-size: initial;
-  	background-repeat-x: initial;
-  	background-repeat-y: initial;
-  	background-attachment: initial;
-  	background-origin: initial;
-  	background-clip: initial;
-	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-	font-size: 30px;
-  	color: rgb(221, 221, 221);
-  	margin-top: 1em;
-  	letter-spacing: 3px;
-	font-family: 'Asap', sans-serif;
-	font-weight: bold;
-  	line-height: 1.5;
-	margin-bottom: 10px;
-	box-sizing: border-box;
-	display: block;
-	text-align: center;
-	margin-left: 25%;
-	margin-right: 25%
 }
 
 #education_information_list {
@@ -300,6 +306,10 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+}
+
+#experience_header_container h6 {
+	
 }
 
 #Projects {
