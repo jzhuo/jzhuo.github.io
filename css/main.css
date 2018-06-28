@@ -209,7 +209,7 @@
   	padding-left: 0px;
 	margin-top: 2em;
 	margin-bottom: 1em;
-  	border-top: 1px solid rgb(221, 221, 221);
+  	border-top: 2px solid rgb(221, 221, 221);
 }
 
 #education_information_list li {
@@ -308,6 +308,9 @@
 
 #experience_header_separator { 
 	border-top: 1px solid rgb(221, 221, 221);
+	border-bottom: 1px solid rgb(221, 221, 221);
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 	
 #Projects {
