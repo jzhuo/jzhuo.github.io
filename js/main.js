@@ -24,6 +24,30 @@ $(document).ready(function () {
     });
     
     // *****************************************************
+    // This is the js for navigation bar link scrolling
+    // *****************************************************
+    
+    // Select all links with hashes
+    $('a.scroll').on('click', function(event) {
+        // On-page links
+        if ( location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname ) {
+          // Figure out element to scroll to
+          var target = $(this.hash),
+              speed= $(this).data("speed") || 800;
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, speed);
+          }
+        }
+    });
+    
+    // *****************************************************
     // This is the js for swapping active classes
     // *****************************************************
 
