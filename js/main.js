@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
     
     // *****************************************************
-    // This is the js for navigation bar link scrolling
+    // This is the js for navigation bar link scrolling and swapping active classes
     // *****************************************************
 
     // Add smooth scrolling to all links
@@ -46,32 +46,23 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
                 });
-        } // End if
-        
-        // *****************************************************
-        // This is the js for swapping active classes
-        // *****************************************************
 
-        var sections = $('.body_page_sections')
-        var navList = navBar.find("#mb-navbar.navbar-nav");
-
-        function swapActive() {
-            top = allWindow.scrollTop();
+            var sections = $('.body_page_sections')
+            var navList = navBar.find("#mb-navbar.navbar-nav");
             $.each(sections, function(i,val) {
                 var section_page = $(this);
                 var bottom = section_page.height() + section_top;
                 section_top = section_page.offset().top - 10,
                 if (top <= bottom && top >= section_top) {
-                    var naItems = navList.find('li');
-                    $.each(naItems ,function(i,val) {
+                    var navItem_list = navList.find('li');
+                    $.each(navItem_list ,function(i,val) {
                         var item = $(this);
-                        item.find("a").removeClass("active");
+                        item.find("a").removeClass("active_link");
                     });
-                    navList.find('li [href="#' + section_page.attr('id') + '"]').addClass('active');
+                    navList.find('li [href="#' + this.hash + '"]').addClass('active_link');
                 }
             });
-        }
-
+        } // End if
     });
     
 });
