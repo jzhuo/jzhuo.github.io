@@ -49,11 +49,11 @@
 	padding-left: 10px;
 }
 
-#mb-navbar .hover_link hover {
+#mb-navbar .hover_link:hover {
 	color: #38ACEC;
 }
 
-#mb-navbar .hover_link before {
+#mb-navbar .hover_link:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -68,7 +68,7 @@
 	transition: all 0.3s ease-in-out 0s;
 }
 
-#mb-navbar .hover_link hover:before {
+#mb-navbar .hover_link:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
