@@ -174,7 +174,7 @@
 	overflow:auto;
 	clear:both;
 	background: rgba(23, 20, 20, .58);
-  	margin-top: 10%;
+  	margin-top: 11%;
 	box-sizing: border-box;
 	display: block;
 	margin-left: 18%;
@@ -182,7 +182,6 @@
 }
 
 #jzhuo_info_details {
-  	padding-right: 3em;
   	padding-bottom: 3em;
 	position: relative;
   	min-height: 1px;
@@ -190,36 +189,6 @@
 	display: block;
 	padding-left: 18%;
 	padding-right: 18%;
-}
-
-#jzhuo_info_details h1 {
-	background-image: initial;
-  	background-position-x: initial;
-  	background-position-y: initial;
-  	background-size: initial;
-  	background-repeat-x: initial;
-  	background-repeat-y: initial;
-  	background-attachment: initial;
-  	background-origin: initial;
-  	background-clip: initial;
-	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-	font-size: 1.2em;
-	color: rgb(221, 221, 221);
-	display: inline-block;
-	padding-top: 0.5em;
-  	padding-right: 1.5em;
-  	padding-bottom: 0.5em;
-  	padding-left: 1.5em;
-  	position: relative;
-	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-	font-weight: bold;
-	margin-top: 0.5em;
-  	margin-right: 0px;
-  	margin-bottom: 10px;
-  	margin-left: 0px;
-	font-family: 'Asap', sans-serif;
-	line-height: 1.1;
-	box-sizing: border-box;
 }
 
 #jzhuo_info_details h6 {
@@ -325,7 +294,7 @@
 	display: inline-block;
   	font-size: 20px;
   	color: rgb(221, 221, 221);
-  	margin-top: -1.4em;
+  	margin-top: -1.5em;
   	font-weight: 400;
 	box-sizing: border-box;
 	float: right;
