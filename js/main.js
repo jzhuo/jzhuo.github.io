@@ -46,7 +46,7 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
                 });
-            ('.active_link').addClass('passive_link'); // add passive_link class to currently active element
+            $('.active_link').addClass('passive_link'); // add passive_link class to currently active element
             $('.active_link').removeClass('active_link'); // remove currently active element
             $(this).removeClass("passive_link");
             $(this).addClass("active_link"); //then make current link as active
