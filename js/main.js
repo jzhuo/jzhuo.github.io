@@ -46,22 +46,8 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
                 });
-
-            var sections = $('.body_page_sections')
-            var navList = navBar.find("#mb-navbar.navbar-nav");
-            $.each(sections, function(i,val) {
-                var section_page = $(this);
-                var bottom = section_page.height() + section_top;
-                section_top = section_page.offset().top - 10,
-                if (top <= bottom && top >= section_top) {
-                    var navItem_list = navList.find('li');
-                    $.each(navItem_list ,function(i,val) {
-                        var item = $(this);
-                        item.find("a").removeClass("active_link");
-                    });
-                    navList.find('li [href="#' + this.hash + '"]').addClass('active_link');
-                }
-            });
+            this.removeClass('passive_link');
+            this.addClass('active_link');
         } // End if
     });
     
