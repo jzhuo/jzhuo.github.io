@@ -31,7 +31,7 @@
 
 #mb-navbar .active_link {
 	color: 	#38ACEC;
-	font-size: 15px;
+	font-size: 18px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
@@ -66,7 +66,7 @@
 
 #mb-navbar .passive_link {
 	color: rgb(221, 221, 221);
-	font-size: 15px;
+	font-size: 18px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
