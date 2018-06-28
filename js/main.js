@@ -26,25 +26,27 @@ $(document).ready(function () {
     // *****************************************************
     // This is the js for navigation bar link scrolling
     // *****************************************************
-    
-    // Select all links with hashes
-    $('a.scroll').on('click', function(event) {
-        // On-page links
-        if ( location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname ) {
-          // Figure out element to scroll to
-          var target = $(this.hash),
-              speed= $(this).data("speed") || 800;
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
-          // Does a scroll target exist?
-          if (target.length) {
-            // Only prevent default if animation is actually gonna happen
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
             event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
-              scrollTop: target.offset().top
-            }, speed);
-          }
-        }
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                });
+        } // End if
     });
     
     // *****************************************************
