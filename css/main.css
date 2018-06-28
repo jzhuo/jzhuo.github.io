@@ -104,11 +104,11 @@
     margin-left: auto;
 }
 
-#profile_text {
+/* #profile_text {
 	box-sizing: border-box;	
 }
-
-#profile_list {
+ */
+/* #profile_list {
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -128,9 +128,9 @@
 	float:left;
 	margin-left:36.5%;
 	margin-right:-36.5%;
-}
+} */
 
-#profile_list .jzhuo_profile_name {
+/* #profile_list .jzhuo_profile_name {
 	font-size: 50px;
 	font-weight: 700;
     line-height: 1.2;
@@ -140,13 +140,9 @@
     margin-top: 0;
 	display: inline-block;
 	box-sizing: border-box;
-}
+} */
 
-#profile_list #profile_name_colon {
-	vertical-align: middle;	
-}
-
-#profile_list span {
+/* #profile_list span {
 	color: #ffffff;
 	font-size: 50px;
 	font-weight: 700;
@@ -156,7 +152,7 @@
 	margin-top: 0%;
 	display: inline-block;
 	box-sizing: border-box;
-}
+} */
 
 /*
 
