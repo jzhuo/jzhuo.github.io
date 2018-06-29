@@ -338,6 +338,8 @@
 .jobs_list li ul {
 	overflow: auto;
 	clear: both;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .employer_name {
@@ -472,6 +474,8 @@
 .projects_list li ul {
 	overflow: auto;
 	clear: both;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 #Skills {
