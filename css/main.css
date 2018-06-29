@@ -131,6 +131,76 @@
 	display: block;
 }
 
+.cv_item_list {
+    box-sizing: border-box;
+    display: block;
+    list-style-type: none;
+    padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.cv_item_list li ul {
+	overflow: auto;
+	clear: both;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.cv_item_first {
+	display: inline-block;
+	float: left;
+	font-size: 24px;
+	color: rgb(221, 221, 221);
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.cv_item_second {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	color: rgb(221, 221, 221);
+    font-weight: 400;
+    box-sizing: border-box;
+	margin-top: .15em;
+}
+
+.cv_item_third {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    margin-top: .8em;
+    font-weight: 400;
+    box-sizing: border-box;
+    float: left;
+}
+
+.cv_item_fourth {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    margin-top: .8em;
+    font-weight: 400;
+    box-sizing: border-box;
+    float: right;
+}
+
+.cv_item_bullets {
+	overflow: auto;
+	clear: both;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    margin-top: .8em;
+    font-weight: 400;
+    box-sizing: border-box;
+    float: left;	
+}
+
 /*
 
     This is the css for the Home section
@@ -322,76 +392,6 @@
 #experience_header_container {
 	padding-top: 3em;	
 }
-
-.jobs_list {
-    box-sizing: border-box;
-    display: block;
-    list-style-type: none;
-    padding-top: 0.5em;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 3em;
-    margin-bottom: 1em;
-}
-
-.jobs_list li ul {
-	overflow: auto;
-	clear: both;
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-.employer_name {
-	display: inline-block;
-	float: left;
-	font-size: 24px;
-	color: rgb(221, 221, 221);
-    font-weight: 400;
-    box-sizing: border-box;
-}
-
-.employer_location {
-	display: inline-block;
-	float: right;
-	font-size: 20px;
-	color: rgb(221, 221, 221);
-    font-weight: 400;
-    box-sizing: border-box;
-	margin-top: .15em;
-}
-
-.job_title {
-    display: inline-block;
-    font-size: 20px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: left;
-}
-
-.employer_time_worked {
-    display: inline-block;
-    font-size: 20px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: right;
-}
-
-.job_description_bullets {
-	overflow: auto;
-	clear: both;
-    display: inline-block;
-    font-size: 16px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: left;	
-}
 	
 #Projects {
 	overflow: auto;
@@ -406,76 +406,6 @@
 
 #projects_header_container {
 	padding-top: 3em;	
-}
-
-.projects_list {
-    box-sizing: border-box;
-    display: block;
-    list-style-type: none;
-    padding-top: 0.5em;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 3em;
-    margin-bottom: 1em;
-}
-
-.project_name {
-	display: inline-block;
-	float: left;
-	font-size: 24px;
-	color: rgb(221, 221, 221);
-    font-weight: 400;
-    box-sizing: border-box;
-}
-
-.project_date {
-	display: inline-block;
-	float: right;
-	font-size: 20px;
-	color: rgb(221, 221, 221);
-    font-weight: 400;
-    box-sizing: border-box;
-	margin-top: .15em;
-}
-
-.project_award {
-	display: inline-block;
-    font-size: 20px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: left;
-}
-
-.project_languages {
-	display: inline-block;
-    font-size: 20px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: right;
-}
-
-.project_description_bullets {
-	overflow: auto;
-	clear: both;
-    display: inline-block;
-    font-size: 16px;
-    color: rgb(221, 221, 221);
-    margin-top: .8em;
-    font-weight: 400;
-    box-sizing: border-box;
-    float: left;	
-}
-
-.projects_list li ul {
-	overflow: auto;
-	clear: both;
-	padding-left: 40px;
-	padding-right: 40px;
 }
 
 #Skills {
