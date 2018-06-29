@@ -399,6 +399,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	padding-top: 5%;
 }
 
 .projects_list {
