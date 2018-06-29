@@ -354,7 +354,7 @@
 
 .job_title {
 	overflow: auto;
-	clear: both
+	clear: both;
     display: inline-block;
     font-size: 20px;
     color: rgb(221, 221, 221);
@@ -366,7 +366,7 @@
 
 .employer_time_worked {
 	overflow: auto;
-	clear: both
+	clear: both;
     display: inline-block;
     font-size: 20px;
     color: rgb(221, 221, 221);
@@ -374,6 +374,18 @@
     font-weight: 400;
     box-sizing: border-box;
     float: right;
+}
+
+.job_description_bullets {
+	overflow: auto;
+	clear: both;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(221, 221, 221);
+    margin-top: .8em;
+    font-weight: 400;
+    box-sizing: border-box;
+    float: left;	
 }
 	
 #Projects {
