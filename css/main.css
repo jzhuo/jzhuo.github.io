@@ -116,6 +116,14 @@
 	padding-right: 18%;
 }
 
+.experience_body_wrapper {
+  	padding-bottom: 3em;
+	position: relative;
+  	min-height: 1px;
+	box-sizing: border-box;
+	display: block;
+}
+
 /*
 
     This is the css for the Home section
