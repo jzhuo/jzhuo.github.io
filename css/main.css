@@ -272,6 +272,10 @@
 	width: 100%;
 }
 
+#education_header_container {
+	padding-top: 3em;	
+}
+
 #jzhuo_information {
 	overflow:auto;
 	clear:both;
