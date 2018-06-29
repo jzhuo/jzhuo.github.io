@@ -391,6 +391,10 @@
     box-sizing: border-box;
     float: left;	
 }
+
+.job_description_bullets:before {
+    color: rgb(221, 221, 221);
+}
 	
 #Projects {
 	overflow: auto;
