@@ -337,6 +337,7 @@
     border: 1px solid rgb(221, 191, 191);
     padding: 15px 15px;
     position: relative;
+	margin-bottom: 5em;
 }
 
 .job_item_wrapper_right {
@@ -348,6 +349,7 @@
     border: 1px solid rgb(221, 191, 191);
     padding: 15px 15px;
     position: relative;
+	margin-bottom: 5em;
 }
 
 .job_title h4 {
