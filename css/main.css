@@ -199,7 +199,6 @@
 }
 
 #education_information_list {
-	margin-bottom: 10px;
 	box-sizing: border-box;
 	display: block;
   	list-style-type: none;
@@ -318,52 +317,9 @@
 }
 
 .jobs_list {
-	list-style: none;
-    padding: 10px 0 10px;
-    position: relative;	
-}
-
-.jobs_list li {
-	margin-bottom: 10px;
-    position: relative;
-}
-
-.job_item_wrapper_left {
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    background: #39485a;
-    border-bottom: 5px solid rgb(221, 221, 221);
-	width: calc( 100% - 75px );
-    float: left;
-    border: 1px solid rgb(221, 191, 191);
-    padding: 15px 15px;
-    position: relative;
-	margin-bottom: 5em;
-}
-
-.job_item_wrapper_right {
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    background: #39485a;
-    border-bottom: 5px solid rgb(221, 221, 221);
-	width: calc( 100% - 75px );
-    float: right;
-    border: 1px solid rgb(221, 191, 191);
-    padding: 15px 15px;
-    position: relative;
-	margin-bottom: 5em;
-}
-
-.job_title h4 {
-    color: rgb(221, 221, 221);
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.job_description ul li p {
-	font-size: 16px;
-    margin: 0;
-    padding: 0;
-    color: rgb(221, 221, 221);
-    line-height: 1.9em;
+	box-sizing: border-box;
+    display: block;
+    list-style-type: none;
 }
 	
 #Projects {
