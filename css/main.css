@@ -395,7 +395,6 @@
 	overflow: auto;
 	clear: both;
 	height: 100%;
-	min-height: 100vh;
 	background-color: #39485a;
 	background-size: cover;
 	background-repeat: no-repeat;
