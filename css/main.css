@@ -466,6 +466,11 @@
     float: left;	
 }
 
+.projects_list li ul {
+	overflow: auto;
+	clear: both;
+}
+
 #Skills {
 	overflow: auto;
 	clear: both;
