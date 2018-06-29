@@ -138,6 +138,10 @@
 	display: block;
 }
 
+.last_section_body_wrapper {
+	padding-bottom: 5em;	
+}
+
 .cv_item_list {
     box-sizing: border-box;
     display: block;
