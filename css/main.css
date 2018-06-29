@@ -277,8 +277,8 @@
 }
 
 #education_container {
-	padding-top: 25vh;
-	padding-bottom: 25vh;
+	display: table;
+    box-sizing: border-box;
 }
 
 #jzhuo_information {
