@@ -319,6 +319,10 @@
 	padding-top: 5%;
 }
 
+#experience_header_container {
+	padding-top: 3em;	
+}
+
 .jobs_list {
     box-sizing: border-box;
     display: block;
@@ -397,6 +401,10 @@
 	background-repeat: no-repeat;
 	position: relative;
 	padding-top: 5%;
+}
+
+#projects_header_container {
+	padding-top: 3em;	
 }
 
 .projects_list {
