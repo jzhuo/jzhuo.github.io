@@ -276,6 +276,11 @@
 	padding-top: 3em;	
 }
 
+#education_container {
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+}
+
 #jzhuo_information {
 	overflow:auto;
 	clear:both;
