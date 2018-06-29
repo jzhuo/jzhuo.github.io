@@ -349,6 +349,20 @@
     padding: 15px 15px;
     position: relative;
 }
+
+.job_title h4 {
+    color: rgb(221, 221, 221);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.job_description ul li p {
+	font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    color: rgb(221, 221, 221);
+    line-height: 1.9em;
+}
 	
 #Projects {
 	overflow: auto;
