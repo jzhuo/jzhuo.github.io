@@ -336,6 +336,11 @@
     margin-bottom: 1em;
 }
 
+.jobs_list li ul {
+	overflow: auto;
+	clear: both;
+}
+
 .employer_name {
 	display: inline-block;
 	float: left;
