@@ -113,6 +113,13 @@
 	margin-bottom: 1em;
 }
 
+.center_wrapper {
+    vertical-align: middle;
+    padding-top: 20px;
+	position: relative;
+    display: table-cell;
+}
+
 .education_body_wrapper {
   	padding-bottom: 3em;
 	position: relative;
@@ -223,13 +230,6 @@
     height: 100vh;
 	display: table;
 	box-sizing: border-box;
-}
-
-#center_wrapper {
-    vertical-align: middle;
-    padding-top: 20px;
-	position: relative;
-    display: table-cell;
 }
 
 #profile_image img {	
