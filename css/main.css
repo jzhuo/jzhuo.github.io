@@ -337,32 +337,25 @@
 }
 
 .employer_name {
-	overflow: auto;
-	clear: both;
 	display: inline-block;
 	float: left;
 	font-size: 24px;
 	color: rgb(221, 221, 221);
-    margin-top: 1em;
     font-weight: 400;
     box-sizing: border-box;
 }
 
 .employer_location {
-	overflow: auto;
-	clear: both;
 	display: inline-block;
 	float: right;
 	font-size: 24px;
 	color: rgb(221, 221, 221);
-    margin-top: 1em;
     font-weight: 400;
     box-sizing: border-box;
+	margin-top: .15em;
 }
 
 .job_title {
-	overflow: auto;
-	clear: both;
     display: inline-block;
     font-size: 20px;
     color: rgb(221, 221, 221);
@@ -373,12 +366,10 @@
 }
 
 .employer_time_worked {
-	overflow: auto;
-	clear: both;
     display: inline-block;
     font-size: 20px;
     color: rgb(221, 221, 221);
-    margin-top: -1.5em;
+    margin-top: .8em;
     font-weight: 400;
     box-sizing: border-box;
     float: right;
