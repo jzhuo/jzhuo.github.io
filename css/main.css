@@ -219,6 +219,27 @@
 	padding-top: 1em;	
 }
 
+.skills_ack_descriptor_left {
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-top: .15em;	
+}
+
+.skills_ack_descriptor_right {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-top: .15em;	
+}
+
+
 /*
 
     This is the css for the Home section in the body
@@ -369,16 +390,6 @@
 	display: table;
     box-sizing: border-box;
 	background: #232f3e;
-}
-
-#skills_descriptor {
-    display: inline-block;
-    float: left;
-    font-size: 20px;
-    color: rgb(221, 221, 221);
-    font-weight: 400;
-    box-sizing: border-box;
-    margin-top: .15em;	
 }
 
 
