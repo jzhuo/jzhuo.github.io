@@ -432,10 +432,10 @@
 
 
 #Contact {
-    overflow: auto;
+	overflow: auto;
     clear: both;
     height: 100%;
-    min-height: 125vh;
+    min-height: 120vh;
     background-color: #232f3e;
     background-size: cover;
     background-repeat: no-repeat;
@@ -454,12 +454,12 @@
 }
 
 #contacts_page_hider {
-	padding-top: 25.5em;	
+	padding-top: 18em;	
 }
 
 #thank_you_message {
-    font-size: 75px;
-    padding-top: 0em;
+	font-size: 75px;
+    padding-top: 1em;
     text-decoration: none;
 }
 
