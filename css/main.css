@@ -109,9 +109,16 @@
 	margin-right: 25%
 }
 
-#section_header_separator { 
+.section_header_separator_even { 
 	border-top: 2px solid rgb(221, 191, 191);
 	border-bottom: 2px solid rgb(221, 191, 191);
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+
+.section_header_separator_odd { 
+	border-top: 2px solid rgb(221, 121, 121);
+	border-bottom: 2px solid rgb(221, 121, 121);
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
