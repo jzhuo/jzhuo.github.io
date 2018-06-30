@@ -371,6 +371,16 @@
 	background: #232f3e;
 }
 
+#skills_descriptor {
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-top: .15em;	
+}
+
 
 /*
 
