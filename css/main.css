@@ -216,7 +216,7 @@
 }
 
 .skill_ack_padding {
-	padding-top: 3em;	
+	padding-top: 1em;	
 }
 
 /*
@@ -360,6 +360,11 @@
 	padding-bottom: 3em;
 }
 
+#skills_header_container {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 #skills_container {
 	display: table;
     box-sizing: border-box;
@@ -384,6 +389,11 @@
 	position: relative;
 	padding-top: 3em;
 	padding-bottom: 15em;
+}
+
+#acknowledgements_header_container {
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 #acknowledgements_container {
