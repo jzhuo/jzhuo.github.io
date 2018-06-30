@@ -4,6 +4,7 @@
 
 */
 
+
 #nav_bar_wrapper {
 	width: 100%;
     padding: 6px 0;
@@ -74,11 +75,13 @@
 	transform: scaleX(1);
 }
 
+
 /*
 
     This is the css for the general sections
 
 */
+
 
 .section_headers {
 	background-image: initial;
@@ -212,11 +215,13 @@
     float: left;	
 }
 
+
 /*
 
     This is the css for the Home section
 
 */
+
 
 #Home {
 	overflow: auto;
@@ -258,11 +263,13 @@
     color: rgb(221, 221, 221);
 }
 
+
 /*
 
 	This is the css for the Education section
 
 */
+
 
 #Education {
 	overflow: auto;
@@ -286,11 +293,13 @@
 	background: rgb(24, 32, 43);
 }
 
+
 /*
 
 	Beginning of the css for the Experience section in the body
 
 */
+
 
 #Experience {
 	overflow: auto;
@@ -305,6 +314,14 @@
 #experience_header_container {
 	padding-top: 5em;	
 }
+
+
+/*
+
+	Beginning of the css for the Experience section in the body
+
+*/
+
 	
 #Projects {
 	overflow: auto;
@@ -320,16 +337,32 @@
 	padding-top: 5em;	
 }
 
+
+/*
+
+	Beginning of the css for the Experience section in the body
+
+*/
+
+
 #Skills {
 	overflow: auto;
 	clear: both;
 	height: 100%;
-	min-height: 100vh;
 	background-color: #18202b;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	padding-top: 5%;
+}
+
+#skills_header_container {
+	padding-top: 3em;	
+}
+
+#skills_container {
+	display: table;
+    box-sizing: border-box;
+	background: rgb(24, 32, 43);
 }
 
 .animation {
