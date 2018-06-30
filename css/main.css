@@ -437,7 +437,7 @@
     font-weight: 700;
     line-height: 1.2;
     font-family: inherit;
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     color: rgb(221, 221, 221);
 }
@@ -447,7 +447,7 @@
     font-weight: 600;
     line-height: 1.2;
     font-family: inherit;
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     color: rgb(221, 221, 221);
 }
