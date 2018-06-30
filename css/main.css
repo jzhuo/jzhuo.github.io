@@ -428,3 +428,26 @@
 	box-sizing: border-box;
 }
 
+#thank_you_message {
+	font-size: 75px;	
+}
+
+.contact_message_first {
+	font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: inherit;
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(221, 221, 221);
+}
+
+.contact_message_second {
+	font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: inherit;
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(221, 221, 221);
+}
