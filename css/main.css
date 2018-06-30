@@ -215,6 +215,9 @@
     float: left;	
 }
 
+.skill_ack_padding {
+	padding-top: 3em;	
+}
 
 /*
 
@@ -354,11 +357,7 @@
 	background-repeat: no-repeat;
 	position: relative;
 	padding-top: 15em;
-	padding-bottom: 15em;
-}
-
-#skills_header_container {
-	padding-top: 3em;	
+	padding-bottom: 3em;
 }
 
 #skills_container {
@@ -379,22 +378,18 @@
 	overflow: auto;
 	clear: both;
 	height: 100%;
-	background-color: #1b242f;
+	background-color: #18202b;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	padding-top: 15em;
+	padding-top: 3em;
 	padding-bottom: 15em;
-}
-
-#acknowledgements_header_container {
-	padding-top: 3em;	
 }
 
 #acknowledgements_container {
 	display: table;
     box-sizing: border-box;
-	background: rgb(24, 32, 43);
+	background: rgb(27,36,47);
 }
 
 
