@@ -1,6 +1,6 @@
 /*
 
-    This is the css for the navigation bar
+    This is the css for the navigation bar up top
 
 */
 
@@ -78,7 +78,7 @@
 
 /*
 
-    This is the css for the general sections
+    This is the css for the general sections in the body
 
 */
 
@@ -218,7 +218,7 @@
 
 /*
 
-    This is the css for the Home section
+    This is the css for the Home section in the body
 
 */
 
@@ -266,7 +266,7 @@
 
 /*
 
-	This is the css for the Education section
+	This is the css for the Education section in the body
 
 */
 
@@ -296,7 +296,7 @@
 
 /*
 
-	Beginning of the css for the Experience section in the body
+	This is the css for the Experience section in the body
 
 */
 
@@ -318,7 +318,7 @@
 
 /*
 
-	Beginning of the css for the Experience section in the body
+	This is the css for the Projects section in the body
 
 */
 
@@ -340,7 +340,7 @@
 
 /*
 
-	Beginning of the css for the Experience section in the body
+	This is the css for the Skills section in the body
 
 */
 
@@ -353,6 +353,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	padding-top: 15em;
+	padding-bottom: 15em;
 }
 
 #skills_header_container {
@@ -362,12 +364,54 @@
 #skills_container {
 	display: table;
     box-sizing: border-box;
+	background: rgb(27,36,47);
+}
+
+
+/*
+
+	This is the css for the Acknowledgements section in the body
+
+*/
+
+
+#Acknowledgements {
+	overflow: auto;
+	clear: both;
+	height: 100%;
+	background-color: #1b242f;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 15em;
+	padding-bottom: 15em;
+}
+
+#acknowledgements_header_container {
+	padding-top: 3em;	
+}
+
+#acknowledgements_container {
+	display: table;
+    box-sizing: border-box;
 	background: rgb(24, 32, 43);
 }
 
-.animation {
-	transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
-    	-moz-transition: all .4s ease-in-out;
-	-webkit-transition: all .4s ease-in-out;
+
+/*
+
+	This is the css for the Contact section in the body
+
+*/
+
+
+#Contact {
+	overflow: auto;
+	clear: both;
+	height: 100%;
+	min-height:100vh;
+	background-color: #18202b;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
 }
