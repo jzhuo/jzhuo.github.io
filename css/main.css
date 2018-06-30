@@ -453,6 +453,10 @@
 	padding-top: 18em;
 }
 
+#contacts_page_hider {
+	padding-top:18em;	
+}
+
 #thank_you_message {
     font-size: 75px;
     padding-top: 0em;
@@ -469,7 +473,6 @@
     color: rgb(221, 221, 221);
     padding-bottom: .5em;
     padding-top: 1em;
-    text-decoration: underline;
 }
 
 .contact_message_second {
@@ -480,6 +483,8 @@
     display: block;
     box-sizing: border-box;
     color: rgb(221, 221, 221);
+    padding-top: .5em;
+    padding-bottom: 1em;
 }
 
 .message_separator_generic {
