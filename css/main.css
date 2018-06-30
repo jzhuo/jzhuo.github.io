@@ -497,8 +497,8 @@
 }
 
 #message_separator_first {
-    border-top: 3px solid rgb(221, 191, 191);
-    border-bottom: 3px solid rgb(221, 191, 191);
+    border-top: 2.5px solid rgb(221, 191, 191);
+    border-bottom: 2.5px solid rgb(221, 191, 191);
     margin-top: .75em;
     margin-bottom: 4em;
 }
