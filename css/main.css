@@ -490,8 +490,8 @@
 .message_separator_generic {
     border-top: 1.5px solid rgb(221, 191, 191);
     border-bottom: 1.5px solid rgb(221, 191, 191);
-    margin-top: 0em;
-    margin-bottom: .75em;
+    margin-top: .5em;
+    margin-bottom: .5em;
     margin-left: 40%;
     margin-right: 40%;
 }
