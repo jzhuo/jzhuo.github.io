@@ -16,7 +16,7 @@ $(document).ready(function () {
                 "Researcher.",
                 "Student."
             ],
-            typeSpeed: 400,
+            typeSpeed: 100,
             backDelay: 3000,
             loop: true,
             showCursor: false
