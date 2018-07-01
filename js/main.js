@@ -52,8 +52,10 @@ $(document).ready(function () {
             $(this).addClass("active_link");
         } // End if
     });
+    
+});
 
-    $(document).scroll(function () {
+$(document).scroll(function () {
         //get document scroll top position
         var top = $(window).scrollTop();
         
@@ -104,6 +106,4 @@ $(document).ready(function () {
             $('#contact_link').addClass("active_link");
         }
         
-    });
-    
 });
