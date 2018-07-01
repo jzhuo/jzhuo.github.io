@@ -46,28 +46,64 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
                 });
-            var activeLink = $('.active_link');
-            activeLink.removeClass('active_link'); // remove currently active element
-            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
             $(this).removeClass("passive_link");
-            $(this).addClass("active_link"); //then make current link as active
+            $(this).addClass("active_link");
         } // End if
     });
 
     $(document).scroll(function () {
-   //get document scroll position
-     var position = $(document).scrollTop(); 
-     //get header height
-     var header = $('nav').outerHeight();
+        //get document scroll top position
+        var top = $(window).scrollTop();
+        
+        // defining the set of section page positions
+        var section1 = $('#Home').position().top;
+        var section2 = $('#Education').position().top + section1;
+        var section3 = $('#Experience').position().top + section2;
+        var section4 = $('#Projects').position().top + section3;
+        var section5 = $('#Skills').position().top + section4;
+        var section6 = $('#acknowledgements_anchor_link').position().top + section5;
+        var section7 = $('#Contact').position().top + section6;
      
-     //check active section
-     $('.body_page_sections').each(function(i) {
-         if($(this).position().top <= (position + header))
-          {
-               $("a.active").removeClass('active_link');
-               $("a").eq(i).addClass('active_link');
-          }
-      });
-   });
+        //check active section
+        if (top >= section1){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#home_link').removeClass("passive_link");
+            $('#home_link').addClass("active_link");
+        } else if (top >= section2){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#education_link').removeClass("passive_link");
+            $('#education_link').addClass("active_link");
+        } else if (top >= section3){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#experience_link').removeClass("passive_link");
+            $('#experience_link').addClass("active_link");
+        } else if (top >= section4){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#projects_link').removeClass("passive_link");
+            $('#projects_link').addClass("active_link");
+        } else if (top >= section5){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#skills_link').removeClass("passive_link");
+            $('#skills_link').addClass("active_link");
+        } else if (top >= section6){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#acknowledgements_link').removeClass("passive_link");
+            $('#acknowledgements_link').addClass("active_link");
+        } else if(top >= section7){
+            $('.active_link').removeClass('active_link');
+            $('.hover_link').addClass('passive_link');
+            $('#contact_link').removeClass("passive_link");
+            $('#contact_link').addClass("active_link");
+        }
+        
+    });
     
 });
