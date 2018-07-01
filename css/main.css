@@ -94,7 +94,7 @@
   	background-origin: initial;
   	background-clip: initial;
 	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-	font-size: 24px;
+	font-size: 20px;
   	color: rgb(221, 221, 221);
   	margin-top: 2em;
   	letter-spacing: 3px;
@@ -180,7 +180,7 @@
 .cv_item_first {
 	display: inline-block;
 	float: left;
-	font-size: 18px;
+	font-size: 16px;
 	color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -189,7 +189,7 @@
 .cv_item_second {
 	display: inline-block;
 	float: right;
-	font-size: 18px;
+	font-size: 16px;
 	color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -198,7 +198,7 @@
 
 .cv_item_third {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(221, 221, 221);
     margin-top: .8em;
     font-weight: 400;
@@ -208,7 +208,7 @@
 
 .cv_item_fourth {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(221, 221, 221);
     margin-top: .8em;
     font-weight: 400;
@@ -220,7 +220,7 @@
 	overflow: auto;
 	clear: both;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(221, 221, 221);
     margin-top: 1em;
     font-weight: 400;
@@ -236,7 +236,7 @@
 .skills_ack_descriptor_left {
     display: inline-block;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -246,7 +246,7 @@
 .skills_ack_descriptor_right {
     display: inline-block;
     float: right;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
