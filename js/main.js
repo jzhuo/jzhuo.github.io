@@ -53,53 +53,45 @@ $(document).ready(function () {
             $(this).addClass("active_link"); //then make current link as active
         } // End if
     });
-    
-    var top1 = $('#Home').offset().top;
-    var top2 = $('#Education').offset().top;
-    var top3 = $('#Experience').offset().top;
-    var top4 = $('#Projects').offset().top;
-    var top5 = $('#Skills').offset().top;
-    var top6 = $('#acknowledgements_anchor_link').offset().top;
-    var top7 = $('#Contact').offset().top;
 
     $(window).scroll(function(){
-        if($(window).scrollTop() > $('#Contact').height()){
+        if($(window).scrollTop() <= $('#Contact').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#contact_link').removeClass("passive_link");
             $('#contact_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#acknowledgements_anchor_link').height()){
+        } else if ($(window).scrollTop() <= $('#acknowledgements_anchor_link').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#acknowledgements_link').removeClass("passive_link");
             $('#acknowledgements_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#Skills').height()){
+        } else if ($(window).scrollTop() <= $('#Skills').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#skills_link').removeClass("passive_link");
             $('#skills_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#Projects').height()){
+        } else if ($(window).scrollTop() <= $('#Projects').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#projects_link').removeClass("passive_link");
             $('#projects_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#Experience').height()){
+        } else if ($(window).scrollTop() <= $('#Experience').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#experience_link').removeClass("passive_link");
             $('#experience_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#Education').height()){
+        } else if ($(window).scrollTop() <= $('#Education').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $('#education_link').removeClass("passive_link");
             $('#education_link').addClass("active_link"); //then make current section link as active
-        } else if ($(window).scrollTop() > $('#Home').height()){
+        } else if ($(window).scrollTop() <= $('#Home').height()){
             var activeLink = $('.active_link');
             activeLink.removeClass('active_link'); // remove currently active element
             activeLink.addClass('passive_link'); // add passive_link class to all hover links
