@@ -25,14 +25,14 @@
 	color: rgb(221, 221, 221);
     padding-bottom: 15px;
     padding-top: 15px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
 	display: block;
 }
 
 #mb-navbar .active_link {
 	color: 	#38ACEC;
-	font-size: 18px;
+	font-size: 14px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
@@ -42,7 +42,7 @@
 
 #mb-navbar .passive_link {
 	color: rgb(221, 221, 221);
-	font-size: 18px;
+	font-size: 14px;
     font-weight: 700;
 	background-color: transparent;
 	position: relative;
@@ -94,7 +94,7 @@
   	background-origin: initial;
   	background-clip: initial;
 	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-	font-size: 30px;
+	font-size: 24px;
   	color: rgb(221, 221, 221);
   	margin-top: 1em;
   	letter-spacing: 3px;
@@ -107,6 +107,14 @@
 	text-align: center;
 	margin-left: 25%;
 	margin-right: 25%
+}
+
+.section_header_even {
+	background-color: #232f3e;
+}
+
+.section_header_odd {
+	background-color: #18202b;
 }
 
 .section_header_separator { 
@@ -167,7 +175,7 @@
 .cv_item_first {
 	display: inline-block;
 	float: left;
-	font-size: 24px;
+	font-size: 18px;
 	color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -176,7 +184,7 @@
 .cv_item_second {
 	display: inline-block;
 	float: right;
-	font-size: 20px;
+	font-size: 18px;
 	color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -185,7 +193,7 @@
 
 .cv_item_third {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(221, 221, 221);
     margin-top: .8em;
     font-weight: 400;
@@ -195,7 +203,7 @@
 
 .cv_item_fourth {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(221, 221, 221);
     margin-top: .8em;
     font-weight: 400;
@@ -209,10 +217,11 @@
     display: inline-block;
     font-size: 16px;
     color: rgb(221, 221, 221);
-    margin-top: .8em;
+    margin-top: 1em;
     font-weight: 400;
     box-sizing: border-box;
-    float: left;	
+    float: left;
+	margin-left:40px;
 }
 
 .skill_ack_padding {
@@ -222,7 +231,7 @@
 .skills_ack_descriptor_left {
     display: inline-block;
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
@@ -232,7 +241,7 @@
 .skills_ack_descriptor_right {
     display: inline-block;
     float: right;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(221, 221, 221);
     font-weight: 400;
     box-sizing: border-box;
