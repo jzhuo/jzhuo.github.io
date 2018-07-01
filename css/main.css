@@ -132,7 +132,7 @@
 }
 
 .education_body_wrapper {
-  	padding-bottom: 3em;
+  	padding-bottom: 2em;
 	position: relative;
   	min-height: 1px;
 	box-sizing: border-box;
@@ -142,7 +142,7 @@
 }
 
 .section_body_wrapper {
-  	padding-bottom: 3em;
+  	padding-bottom: 2em;
 	position: relative;
   	min-height: 1px;
 	box-sizing: border-box;
@@ -161,8 +161,8 @@
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    margin-top: 3em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
 }
 
 .cv_item_list li ul {
@@ -286,7 +286,7 @@
 }
 
 #jzhuo_profile_description {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 700;
     line-height: 1.2;
 	font-family: inherit;
@@ -502,10 +502,10 @@
 }
 
 #message_separator_first {
-    border-top: 2.5px solid rgb(221, 191, 191);
-    border-bottom: 2.5px solid rgb(221, 191, 191);
-    margin-top: .75em;
-    margin-bottom: .75em;
+    border-top: 2px solid rgb(221, 191, 191);
+    border-bottom: 2px solid rgb(221, 191, 191);
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -515,20 +515,11 @@
     border-bottom: 2px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-#message_separator_third {
-    border-top: 2px solid rgb(221, 191, 191);
-    border-bottom: 2px solid rgb(221, 191, 191);
-    margin-top: 1em;
-    margin-bottom: 1em;
     margin-left: 30%;
     margin-right: 30%;
 }
 
-#message_separator_fourth {
+#message_separator_third {
     border-top: 2px solid rgb(221, 191, 191);
     border-bottom: 2px solid rgb(221, 191, 191);
     margin-top: 1em;
