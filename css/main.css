@@ -123,8 +123,8 @@
 }
 
 .section_header_separator { 
-	border-top: 2px solid rgb(221, 191, 191);
-	border-bottom: 2px solid rgb(221, 191, 191);
+	border-top: 1.5px solid rgb(221, 191, 191);
+	border-bottom: 1.5px solid rgb(221, 191, 191);
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
@@ -507,8 +507,8 @@
 }
 
 #message_separator_first {
-    border-top: 2px solid rgb(221, 191, 191);
-    border-bottom: 2px solid rgb(221, 191, 191);
+    border-top: 1.5px solid rgb(221, 191, 191);
+    border-bottom: 1.5px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 20%;
@@ -516,8 +516,8 @@
 }
 
 #message_separator_second {
-    border-top: 2px solid rgb(221, 191, 191);
-    border-bottom: 2px solid rgb(221, 191, 191);
+    border-top: 1.5px solid rgb(221, 191, 191);
+    border-bottom: 1.5px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 30%;
@@ -525,8 +525,8 @@
 }
 
 #message_separator_third {
-    border-top: 2px solid rgb(221, 191, 191);
-    border-bottom: 2px solid rgb(221, 191, 191);
+    border-top: 1.5px solid rgb(221, 191, 191);
+    border-bottom: 1.5px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 40%;
