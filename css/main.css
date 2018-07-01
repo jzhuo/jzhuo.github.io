@@ -96,17 +96,22 @@
 	box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
 	font-size: 24px;
   	color: rgb(221, 221, 221);
-  	margin-top: 1em;
+  	margin-top: 2em;
   	letter-spacing: 3px;
 	font-family: 'Asap', sans-serif;
 	font-weight: bold;
   	line-height: 1.5;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 	box-sizing: border-box;
 	display: block;
 	text-align: center;
 	margin-left: 25%;
 	margin-right: 25%
+}
+
+#section_header_education {
+	margin-bottom: 1em;
+  	margin-top: 1em;
 }
 
 .section_header_even {
