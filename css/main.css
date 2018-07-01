@@ -448,7 +448,7 @@
 	overflow: auto;
     clear: both;
     height: 100%;
-    min-height: 120vh;
+    min-height: 100vh;
     background-color: #232f3e;
     background-size: cover;
     background-repeat: no-repeat;
@@ -462,22 +462,14 @@
     box-sizing: border-box;
 }
 
-#contact_anchor_link {
-	padding-top: 8em;
-}
-
-#contacts_page_hider {
-	padding-top: 18em;	
-}
-
 #thank_you_message {
-	font-size: 75px;
+    font-size: 44px;
     padding-top: 1em;
     text-decoration: none;
 }
 
 .contact_message_first {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
     font-family: inherit;
@@ -489,7 +481,7 @@
 }
 
 .contact_message_second {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.2;
     font-family: inherit;
@@ -505,15 +497,17 @@
     border-bottom: 1.5px solid rgb(221, 191, 191);
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 46%;
+    margin-right: 46%;
 }
 
 #message_separator_first {
     border-top: 2.5px solid rgb(221, 191, 191);
     border-bottom: 2.5px solid rgb(221, 191, 191);
     margin-top: .75em;
-    margin-bottom: 4em;
+    margin-bottom: .75em;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #message_separator_second {
@@ -530,8 +524,8 @@
     border-bottom: 2px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #message_separator_fourth {
@@ -539,6 +533,6 @@
     border-bottom: 2px solid rgb(221, 191, 191);
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
