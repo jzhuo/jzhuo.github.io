@@ -46,59 +46,67 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
                 });
-            $('.hover_link').addClass('passive_link'); // add passive_link class to all hover links
-            $('.active_link').removeClass('active_link'); // remove currently active element
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
             $(this).removeClass("passive_link");
             $(this).addClass("active_link"); //then make current link as active
         } // End if
     });
     
-});
+    var top1 = $('#Home').offset().top;
+    var top2 = $('#Education').offset().top;
+    var top3 = $('#Experience').offset().top;
+    var top4 = $('#Projects').offset().top;
+    var top5 = $('#Skills').offset().top;
+    var top6 = $('#acknowledgements_anchor_link').offset().top;
+    var top7 = $('#Contact').offset().top;
 
-var top1 = $('#Home').offset().top;
-var top2 = $('#Education').offset().top;
-var top3 = $('#Experience').offset().top;
-var top4 = $('#Projects').offset().top;
-var top5 = $('#Skills').offset().top;
-var top6 = $('#Acknowledgements').offset().top;
-var top7 = $('#Contact').offset().top;
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $('#Contact').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#contact_link').removeClass("passive_link");
+            $('#contact_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#acknowledgements_anchor_link').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#acknowledgements_link').removeClass("passive_link");
+            $('#acknowledgements_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#Skills').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#skills_link').removeClass("passive_link");
+            $('#skills_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#Projects').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#projects_link').removeClass("passive_link");
+            $('#projects_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#Experience').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#experience_link').removeClass("passive_link");
+            $('#experience_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#Education').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#education_link').removeClass("passive_link");
+            $('#education_link').addClass("active_link"); //then make current section link as active
+        } else if ($(window).scrollTop() > $('#Home').height()){
+            var activeLink = $('.active_link');
+            activeLink.removeClass('active_link'); // remove currently active element
+            activeLink.addClass('passive_link'); // add passive_link class to all hover links
+            $('#home_link').removeClass("passive_link");
+            $('#home_link').addClass("active_link"); //then make current section link as active
+        } 
 
-$(document).scroll(function() {
-    var scrollPos = $(document).scrollTop();
-    if (scrollPos >= top1 && scrollPos < top2) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Home').removeClass("passive_link");
-        $('#Home').addClass("active_link"); //then make current link as active  
-    } else if (scrollPos >= top2 && scrollPos < top3) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Education').removeClass("passive_link");
-        $('#Education').addClass("active_link"); //then make current link as active
-    } else if (scrollPos >= top3 && scrollPos < top4) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Experience').removeClass("passive_link");
-        $('#Experience').addClass("active_link"); //then make current link as active
-    } else if (scrollPos >= top4 && scrollPos < top5) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Projects').removeClass("passive_link");
-        $('#Projects').addClass("active_link"); //then make current link as active
-    } else if (scrollPos >= top5 && scrollPos < top6) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Skills').removeClass("passive_link");
-        $('#Skills').addClass("active_link"); //then make current link as active
-    } else if (scrollPos >= top6 && scrollPos < top7) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Acknowledgements').removeClass("passive_link");
-        $('#Acknowledgements').addClass("active_link"); //then make current link as active
-    } else if (scrollPos >= top7) {
-        $('.hover_link').addClass('passive_link'); // remove currently active element
-        $('.active_link').removeClass('active_link'); // remove currently active element
-        $('#Contact').removeClass("passive_link");
-        $('#Contact').addClass("active_link"); //then make current link as active
-    }
+    });
+    
 });
