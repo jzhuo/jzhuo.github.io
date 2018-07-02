@@ -61,12 +61,12 @@ $(document).scroll(function () {
         
         // defining the set of section page positions
         var section1 = $('#Home').position().top;
-        var section2 = $('#Education').position().top + section1;
-        var section3 = $('#Experience').position().top + section2;
-        var section4 = $('#Projects').position().top + section3;
-        var section5 = $('#Skills').position().top + section4;
-        var section6 = $('#acknowledgements_anchor_link').position().top + section5;
-        var section7 = $('#Contact').position().top + section6;
+        var section2 = $('#Education').position().top;
+        var section3 = $('#Experience').position().top;
+        var section4 = $('#Projects').position().top;
+        var section5 = $('#Skills').position().top;
+        var section6 = $('#acknowledgements_anchor_link').position().top;
+        var section7 = $('#Contact').position().top;
      
         //check active section
         if (top >= section1){
