@@ -72,13 +72,13 @@ $(document).ready(function () {
         if(topPosition >= section1 && topPosition < section2){
             $('.hover_link').addClass('passive_link');
             $('.active_link').removeClass('active_link');
-            $("#home_link").removeClass("passive_link");
-            $("#home_link").addClass("active_link"); 
+            $('#home_link').removeClass("passive_link");
+            $('#home_link').addClass("active_link"); 
         } else if (topPosition >= section2 && topPosition < section3) {
             $('.hover_link').addClass('passive_link');
             $('.active_link').removeClass('active_link');
-            $("#education_link").removeClass("passive_link");
-            $("#education_link").addClass("active_link"); 
+            $('#education_link').removeClass("passive_link");
+            $('#education_link').addClass("active_link"); 
         }
     })
     
