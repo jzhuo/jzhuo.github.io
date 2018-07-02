@@ -59,7 +59,7 @@ $(document).ready(function () {
     
     $(document).scroll(function(){
         // defining a set list of positions
-        var topPosition = $(".nav").offset().top();
+        var topPosition = $(".nav").offset().top;
         var section1 = $("#Home").scrollTop();
         var section2 = $("#Education").scrollTop();
         var section3 = $("#Experience").scrollTop();
