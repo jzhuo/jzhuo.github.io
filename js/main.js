@@ -57,9 +57,9 @@ $(document).ready(function () {
     // This is the js for dynamic scoll nav bar anchor links
     // *****************************************************
     
-    $(window).scroll(function(){
+    $(document).scroll(function(){
         // defining a set list of positions
-        topPosition = $(window).scrollTop();
+        topPosition = $(".nav").offset().top();
         section1 = $("#Home").scrollTop();
         section2 = $("#Education").scrollTop();
         section3 = $("#Experience").scrollTop();
