@@ -69,12 +69,12 @@ $(document).ready(function () {
         var section7 = $("#Contact").scrollTop();
         
         // comparing scroll positions and swapping classes
-        if(topPosition >= section1){
+        if(topPosition >= section1 && topPosition < section2){
             $('.hover_link').addClass('passive_link');
             $('.active_link').removeClass('active_link');
             $("#home_link").removeClass("passive_link");
             $("#home_link").addClass("active_link"); 
-        } else if (topPosition >= section2) {
+        } else if (topPosition >= section2 && topPosition < section3) {
             $('.hover_link').addClass('passive_link');
             $('.active_link').removeClass('active_link');
             $("#education_link").removeClass("passive_link");
