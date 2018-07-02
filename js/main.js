@@ -58,17 +58,17 @@ $(document).ready(function () {
     // *****************************************************
 
     // defining a set list of positions
-    var topPosition = $(".nav").position().top + $(".nav").offset().top + $(".nav").outerHeight(true);
-    var section1 = $("#Home").scrollTop();
-    var section2 = $("#Education").scrollTop();
-    var section3 = $("#Experience").scrollTop();
-    var section4 = $("#Projects").scrollTop();
-    var section5 = $("#Skills").scrollTop();
-    var section6 = $("#acknowledgements_anchor_link").scrollTop();
-    var section7 = $("#Contact").scrollTop();
+    var topPosition = $('.nav').position().top + $('.nav').offset().top + $('.nav').outerHeight(true);
+    var section1 = $('#Home').scrollTop();
+    var section2 = $('#Education').scrollTop();
+    var section3 = $('#Experience').scrollTop();
+    var section4 = $('#Projects').scrollTop();
+    var section5 = $('#Skills').scrollTop();
+    var section6 = $('#acknowledgements_anchor_link').scrollTop();
+    var section7 = $('#Contact').scrollTop();
     
     $(document).scroll(function(){
-        
+        console.log(topPosition, section1, section2, section3, section4, section5, section6, section7);
         // comparing scroll positions and swapping classes
         if(topPosition >= section1 && topPosition < section2){
             $('.hover_link').addClass('passive_link');
