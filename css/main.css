@@ -346,22 +346,6 @@
 	padding-top: 5em;	
 }
 
-#Experience .section_body_wrapper img {
-    box-sizing: border-box;
-    display: block;
-    list-style-type: none;
-    padding-top: 0.5em;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-top: 2em;
-    margin-bottom: 0em;	
-}
-
-.raytheon_logo {
-	
-}
-
 /*
 
 	This is the css for the Projects section in the body
