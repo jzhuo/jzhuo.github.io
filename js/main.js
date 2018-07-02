@@ -53,4 +53,33 @@ $(document).ready(function () {
         } // End if
     });
     
+    // *****************************************************
+    // This is the js for dynamic scoll nav bar anchor links
+    // *****************************************************
+    
+    $(window).scroll(function(){
+        // defining a set list of positions
+        topPosition = $(window).scrollTop();
+        section1 = $("#Home").scrollTop();
+        section2 = $("#Education").scrollTop();
+        section3 = $("#Experience").scrollTop();
+        section4 = $("#Projects").scrollTop();
+        section5 = $("#Skills").scrollTop();
+        section6 = $("#acknowledgements_anchor_link").scrollTop();
+        section7 = $("#Contact").scrollTop();
+        
+        // comparing scroll positions and swapping classes
+        if(topPosition >= section1 && topPosition < section2){
+            $('.hover_link').addClass('passive_link');
+            $('.active_link').removeClass('active_link');
+            $("#home_link").removeClass("passive_link");
+            $("#home_link").addClass("active_link"); 
+        } else if (topPosition >= section2 && topPosition < section3) {
+            $('.hover_link').addClass('passive_link');
+            $('.active_link').removeClass('active_link');
+            $("#education_link").removeClass("passive_link");
+            $("#education_link").addClass("active_link"); 
+        }
+    })
+    
 });
