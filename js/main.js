@@ -59,14 +59,14 @@ $(document).ready(function () {
     
     $(document).scroll(function(){
         // defining a set list of positions
-        topPosition = $(".nav").offset().top();
-        section1 = $("#Home").scrollTop();
-        section2 = $("#Education").scrollTop();
-        section3 = $("#Experience").scrollTop();
-        section4 = $("#Projects").scrollTop();
-        section5 = $("#Skills").scrollTop();
-        section6 = $("#acknowledgements_anchor_link").scrollTop();
-        section7 = $("#Contact").scrollTop();
+        var topPosition = $(".nav").offset().top();
+        var section1 = $("#Home").scrollTop();
+        var section2 = $("#Education").scrollTop();
+        var section3 = $("#Experience").scrollTop();
+        var section4 = $("#Projects").scrollTop();
+        var section5 = $("#Skills").scrollTop();
+        var section6 = $("#acknowledgements_anchor_link").scrollTop();
+        var section7 = $("#Contact").scrollTop();
         
         // comparing scroll positions and swapping classes
         if(topPosition >= section1){
