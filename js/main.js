@@ -56,17 +56,18 @@ $(document).ready(function () {
     // *****************************************************
     // This is the js for dynamic scoll nav bar anchor links
     // *****************************************************
+
+    // defining a set list of positions
+    var topPosition = $(".nav").position().top + $(".nav").offset().top + $(".nav").outerHeight(true);
+    var section1 = $("#Home").scrollTop();
+    var section2 = $("#Education").scrollTop();
+    var section3 = $("#Experience").scrollTop();
+    var section4 = $("#Projects").scrollTop();
+    var section5 = $("#Skills").scrollTop();
+    var section6 = $("#acknowledgements_anchor_link").scrollTop();
+    var section7 = $("#Contact").scrollTop();
     
     $(document).scroll(function(){
-        // defining a set list of positions
-        var topPosition = $(".nav").position().top + $(".nav").offset().top + $(".nav").outerHeight(true);
-        var section1 = $("#Home").scrollTop();
-        var section2 = $("#Education").scrollTop();
-        var section3 = $("#Experience").scrollTop();
-        var section4 = $("#Projects").scrollTop();
-        var section5 = $("#Skills").scrollTop();
-        var section6 = $("#acknowledgements_anchor_link").scrollTop();
-        var section7 = $("#Contact").scrollTop();
         
         // comparing scroll positions and swapping classes
         if(topPosition >= section1 && topPosition < section2){
