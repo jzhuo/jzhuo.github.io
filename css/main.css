@@ -108,21 +108,15 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.see_cv_button {
-    display: inline;
+.custom_cv_button  {
 	color: rgb(221, 221, 221);
 	background-color: #18202b;
-	border: 1px solid #18202b;
-	padding-top: 9px; 
-	padding-bottom: 9px;
-	padding-right: 18px;
-	padding-left: 19px;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
-#cv_button .see_cv_button:hover {
-	background-color: rgb(221, 221, 221);
+.custom_cv_button:hover {
 	color: #18202b;
+	background-color: rgb(221, 221, 221);
 	border: 1px solid rgb(221, 221, 221);
 }
