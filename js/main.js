@@ -16,8 +16,8 @@ $(document).ready(function () {
                 "Researcher",
                 "Student"
             ],
-            typeSpeed: 125,
-            backDelay: 2500,
+            typeSpeed: 150,
+            backDelay: 2000,
             loop: true,
             showCursor: false
         });
@@ -57,30 +57,30 @@ $(document).ready(function () {
     // This is the js for dynamic scoll nav bar anchor links
     // *****************************************************
 
-    $(window).scroll(function (event) {
-        // defining a set list of positions
-        var scroll = $(window).scrollTop();
-        var section1 = $('#Home').scrollTop();
-        var section2 = $('#Education').scrollTop();
-        var section3 = $('#Experience').scrollTop();
-        var section4 = $('#Projects').scrollTop();
-        var section5 = $('#Skills').scrollTop();
-        var section6 = $('#acknowledgements_anchor_link').scrollTop();
-        var section7 = $('#Contact').scrollTop();
+    // $(window).scroll(function (event) {
+    //     // defining a set list of positions
+    //     var scroll = $(window).scrollTop();
+    //     var section1 = $('#Home').scrollTop();
+    //     var section2 = $('#Education').scrollTop();
+    //     var section3 = $('#Experience').scrollTop();
+    //     var section4 = $('#Projects').scrollTop();
+    //     var section5 = $('#Skills').scrollTop();
+    //     var section6 = $('#acknowledgements_anchor_link').scrollTop();
+    //     var section7 = $('#Contact').scrollTop();
 
-        if (scroll >= section1 && scroll < section2) {
-            $('.hover_link').addClass('passive_link');
-            $('.active_link').removeClass('active_link');
-            $("#home_link").addClass('active_link');
-            $("#home_link").removeClass('passive_link');
-        }
-        else if (scroll >= section2 && scroll < section3) {
-            $('.hover_link').addClass('passive_link');
-            $('.active_link').removeClass('active_link');
-            $("#education_link").addClass('active_link');
-            $("#education_link").removeClass('passive_link');
-        }
+    //     if (scroll >= section1 && scroll < section2) {
+    //         $('.hover_link').addClass('passive_link');
+    //         $('.active_link').removeClass('active_link');
+    //         $("#home_link").addClass('active_link');
+    //         $("#home_link").removeClass('passive_link');
+    //     }
+    //     else if (scroll >= section2 && scroll < section3) {
+    //         $('.hover_link').addClass('passive_link');
+    //         $('.active_link').removeClass('active_link');
+    //         $("#education_link").addClass('active_link');
+    //         $("#education_link").removeClass('passive_link');
+    //     }
 
-    });
+    // });
 
 });
