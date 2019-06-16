@@ -108,7 +108,7 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#cv_button {
+.see_cv_button {
     display: inline;
 	color: rgb(221, 221, 221);
 	background-color: #18202b;
@@ -121,7 +121,7 @@ body{
 	font-weight: bold;
 }
 
-#cv_button :hover {
+#cv_button .see_cv_button:hover {
 	background-color: rgb(221, 221, 221);
 	color: #18202b;
 	border: 1px solid rgb(221, 221, 221);
