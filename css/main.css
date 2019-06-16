@@ -79,12 +79,12 @@ body{
 	text-align: center;
   }
 
-/* .profile_image {
+.profile_image {
 	width: 170px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 	border-radius: 20%;
 	border: solid 3px rgb(221, 221, 221);
-} */
+}
 
 /* #jzhuo_profile_description {
 	font-size: 40px;
