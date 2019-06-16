@@ -12,11 +12,11 @@ $(document).ready(function () {
     $(function () {
         typed.typed({
             strings: [
-                "Developer",
-                "Researcher",
-                "Student"
+                "Developer.",
+                "Researcher.",
+                "Student."
             ],
-            typeSpeed: 200,
+            typeSpeed: 125,
             backDelay: 1250,
             loop: true,
             showCursor: false
