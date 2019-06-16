@@ -13,6 +13,7 @@ body{
 	background-color: #18202b;
 	position: fixed;
 	width: 100vw;
+	z-index: 9999;
 }
 
 /* color for the navbar icon when collapsed */
