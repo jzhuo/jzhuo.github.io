@@ -98,14 +98,7 @@ body{
 	border: solid 3px rgb(221, 221, 221);
 }
 
-/* #jzhuo_profile_description {
-	font-size: 40px;
-	font-weight: 700;
-    line-height: 1.2;
-	font-family: inherit;
-	box-sizing: border-box;
-	display: inline-block;
-	box-sizing: border-box;
+#jzhuo_profile_description {
 	color: rgb(221, 221, 221);
-	margin: 0 auto;
-} */
+
+}
