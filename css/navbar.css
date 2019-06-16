@@ -6,6 +6,8 @@
 	position: fixed;
 	width: 100vw;
 	z-index: 9999;
+	display: block;
+    box-sizing: border-box;
 }
 
 /* color for the navbar icon when collapsed */
@@ -19,7 +21,7 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#mb-navbar .active_link {
+#navbar_collapse .active_link {
 	color: 	#38ACEC;
 	background-color: transparent;
 	position: relative;
@@ -28,7 +30,7 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#mb-navbar .passive_link {
+#navbar_collapse .passive_link {
 	color: rgb(221, 221, 221);
 	background-color: transparent;
 	position: relative;
@@ -37,11 +39,11 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#mb-navbar .hover_link:hover {
+#navbar_collapse .hover_link:hover {
 	color: #38ACEC;
 }
 
-#mb-navbar .hover_link:before {
+#navbar_collapse .hover_link:before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -56,7 +58,7 @@
 	transition: all 0.3s ease-in-out 0s;
 }
 
-#mb-navbar .hover_link:hover:before {
+#navbar_collapse .hover_link:hover:before {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);

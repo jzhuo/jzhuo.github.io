@@ -16,8 +16,8 @@ $(document).ready(function () {
                 "Researcher",
                 "Student"
             ],
-            typeSpeed: 175,
-            backDelay: 1750,
+            typeSpeed: 200,
+            backDelay: 1250,
             loop: true,
             showCursor: false
         });
