@@ -92,7 +92,7 @@ body{
 }
 
 .profile_image {
-	width: 25%;
+	width: 200px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.52);
 	border-radius: 20%;
 	border: solid 3px rgb(221, 221, 221);
