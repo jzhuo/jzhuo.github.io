@@ -67,19 +67,19 @@ Styling for Experience section
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, #fff4ed, #fff4ed 50%, #edf8ff 50%, #edf8ff);
+    background: linear-gradient(to right, #ffd5ba, #ffd5ba 50%, #b2e1ff 50%, #b2e1ff);
 }
 .experience_container {
     height: 100%;
     margin-top: 48px;
-    background-color: #18202b;
+    background: rgba(15, 20, 27, 0.9); 
 }
 .timeline_header {
     padding: 36px 16px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(221, 221, 221);
+    color: white;
 }
 .timeline_header_text {
     font-size: 28px;
@@ -100,7 +100,7 @@ Styling for Experience section
     height: 100%;
     margin-left: -1px;
     position: absolute;
-    background: rgb(221, 221, 221);
+    background: linear-gradient(to right, #ffd5ba, #ffd5ba 50%, #b2e1ff 50%, #b2e1ff);
 }
 @media (min-width: 1200px) {
     .timeline_body {
@@ -156,8 +156,8 @@ Styling for Experience section
     z-index: 300;
     margin-top: 10px;
     border-radius: 50%;
-    border: 1px solid rgb(221, 221, 221);
-    background: linear-gradient(to right, #fff4ed, #fff4ed 50%, #edf8ff 50%, #edf8ff);
+    border: 1px solid white;
+    background: linear-gradient(to right, #b2e1ff, #b2e1ff 50%, #ffd5ba 50%, #ffd5ba);
 }
 .timeline_item_body_container {
     width: 95%;
@@ -170,15 +170,15 @@ Styling for Experience section
     margin-bottom: 0;
     font-weight: bold;
     padding-bottom: 0;
-    color: rgb(221, 221, 221);
+    color: white;
 }
 .timeline_item_body_company {
     font-size: 16px;
-    color: rgb(221, 221, 221);
+    color: white;
 }
 .timeline_item_body_time {
     font-size: 14px;
-    color: rgb(221, 221, 221);
+    color: white;
 }
 .timeline_item_body_description {
     margin-top: 0;
@@ -189,7 +189,7 @@ Styling for Experience section
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 0.5px;
-    color: rgb(221, 221, 221);
+    color: white;
 }
 .timeline_item_body_description li {
     margin: 5px 0px;
