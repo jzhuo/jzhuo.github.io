@@ -183,10 +183,10 @@ Styling for Experience section
 .timeline_item_body_description {
     margin-top: 0;
     font-size: 14px;
+    margin-top: 10px;
     text-align: left;
     line-height: 1.5;
     word-spacing: 1px;
-    margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 0.5px;
     color: white;
