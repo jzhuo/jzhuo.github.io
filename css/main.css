@@ -1,6 +1,22 @@
+/* 
+    General Styling
+*/
+
 *, ::after, ::before {
     box-sizing: inherit;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.section_header {
+    padding: 36px 16px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.section_header_text {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -56,11 +72,12 @@
 
 
 
+
 /* 
-    Styling for Education section
+    Styling for About section
 */
 
-#Education {
+#About {
     width: 100vw;
     height: 100vh;
     padding: 5rem 0;
@@ -89,18 +106,6 @@
     height: 100%;
     margin-top: 48px;
     background: rgba(15, 20, 27, 0.9); 
-}
-.timeline_header {
-    padding: 36px 16px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-.timeline_header_text {
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 /* CSS for timeline body */
 #Experience .container {
@@ -182,7 +187,7 @@
     margin-top: 10px;
     border-radius: 75%;
     border: 2px solid white;
-    background: linear-gradient(to right, #e6f5ff, #e6f5ff 50%, #ffe5d4 50%, #ffe5d4);
+    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff);
 }
 @media screen and (max-width: 768px) {
     .timeline_item_right {
@@ -256,6 +261,6 @@
     padding: 5rem 0;
     text-align: center;
     background-size: 100% 100%;
-    background-color: #e6f5ff;
     background-repeat: no-repeat;
+    background: linear-gradient(to right, #e6f5ff, #e6f5ff 50%, #ffe5d4 50%, #ffe5d4);
 }
