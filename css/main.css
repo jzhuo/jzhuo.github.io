@@ -109,6 +109,8 @@ Styling for Experience section
     #Experience .container .container :before {
         left: 8px;
         width: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (min-width: 1200px) {
