@@ -198,12 +198,17 @@ Styling for Experience section
     padding: 0 15px;
 }
 .timeline_item_body_position {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
     margin-bottom: 0;
     font-weight: bold;
     padding-bottom: 0;
-    color: white;
+}
+.timeline_item_right .timeline_item_body_position {
+    color: #ffe5d4;
+}
+.timeline_item_left .timeline_item_body_position {
+    color: #ccebff;
 }
 .timeline_item_body_company {
     font-size: 16px;
