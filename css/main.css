@@ -1,6 +1,6 @@
 *, ::after, ::before {
     box-sizing: inherit;
-    font-family: 'Open Sans';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -155,8 +155,8 @@ Styling for Experience section
     height: 16px;
     z-index: 300;
     margin-top: 10px;
-    border-radius: 50%;
-    border: 1px solid white;
+    border-radius: 75%;
+    border: 2px solid white;
     background: linear-gradient(to right, #ccebff, #ccebff 50%, #ffe5d4 50%, #ffe5d4);
 }
 .timeline_item_body_container {
