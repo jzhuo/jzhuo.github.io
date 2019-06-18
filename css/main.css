@@ -7,7 +7,7 @@
 
 
 /* 
-Styling for Home section
+    Styling for Home section
 */
 
 #Home {
@@ -57,7 +57,23 @@ Styling for Home section
 
 
 /* 
-Styling for Experience section
+    Styling for Education section
+*/
+
+#Education {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem 0;
+    text-align: center;
+    background-size: 100% 100%;
+    background-color: #ffe5d4;
+    background-repeat: no-repeat;
+}
+
+
+
+/* 
+    Styling for Experience section
 */
 
 #Experience {
@@ -231,7 +247,7 @@ Styling for Experience section
 
 
 /* 
-Styling for Projects section
+    Styling for Projects section
 */
 
 #Projects {
@@ -239,24 +255,7 @@ Styling for Projects section
     height: 100vh;
     padding: 5rem 0;
     text-align: center;
-    background-color: #e6f5ff;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-
-
-/* 
-Styling for Skills section
-*/
-
-#Skills {
-    width: 100vw;
-    height: 100vh;
-    padding: 5rem 0;
-    text-align: center;
     background-color: #e6f5ff;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, #e6f5ff, #e6f5ff 50%, #ffe5d4 50%, #ffe5d4);
 }
