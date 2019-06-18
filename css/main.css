@@ -87,17 +87,12 @@ Styling for Experience section
     text-transform: uppercase;
 }
 /* CSS for timeline body */
-.timeline_body {
+#Experience .container {
     padding: 50px 0;
     overflow: hidden;
     position: relative;
 }
-@media screen and (max-width: 768px) {
-    #Experience .experience_container .timeline_body {
-        padding-left: 0px;
-    }
-}
-.timeline_body :before {
+#Experience .container .container :before {
     top: 0;
     left: 50%;
     width: 2px;
@@ -108,45 +103,44 @@ Styling for Experience section
     background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff);
 }
 @media screen and (max-width: 768px) {
-    .timeline_body :before {
+    #Experience .container .container {
+        left: 8px;
+    }
+    #Experience .container .container :before {
         left: 8px;
         width: 2px;
     }
 }
 @media (min-width: 1200px) {
-    .timeline_body {
+    #Experience .container .container {
         width: 1140px;
         max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (min-width: 992px){
-    .timeline_body {
+    #Experience .container .container {
         width: 960px;
         max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (min-width: 768px) {
-    .timeline_body {
+    #Experience .container .container {
         width: 1140px;
         max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (min-width: 576px){
-    .timeline_body {
+    #Experience .container.container {
         width: 960px;
         max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .timeline_body :before {
-        left: 8px;
-        width: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 /* CSS for timeline_items */
@@ -165,21 +159,6 @@ Styling for Experience section
     width: calc(50% + 8px);
     justify-content: space-between;
 }
-@media screen and (max-width: 768px) {
-    .timeline_item_right {
-        float: none;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .timeline_item_left {
-        width: 100%;
-        float: none;
-        direction: ltr;
-        margin-bottom: 30px;
-    }
-}
 .timeline_item_circle {
     width: 16px;
     height: 16px;
@@ -188,6 +167,19 @@ Styling for Experience section
     border-radius: 75%;
     border: 2px solid white;
     background: linear-gradient(to right, #ccebff, #ccebff 50%, #ffe5d4 50%, #ffe5d4);
+}
+@media screen and (max-width: 768px) {
+    .timeline_item_right {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline_item_left {
+        width: 100%;
+        float: none;
+        direction: ltr;
+        margin-bottom: 30px;
+    }
 }
 .timeline_item_body_container {
     width: 95%;
