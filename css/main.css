@@ -67,7 +67,7 @@ Styling for Experience section
     text-align: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #ccebff 50%, #ccebff);
+    background: linear-gradient(to right, #fff4ee, #fff4ee 50%, #e6f5ff 50%, #e6f5ff);
 }
 .experience_container {
     height: 100%;
@@ -100,7 +100,7 @@ Styling for Experience section
     height: 100%;
     margin-left: -1px;
     position: absolute;
-    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #ccebff 50%, #ccebff);
+    background: linear-gradient(to right, #fff4ee, #fff4ee 50%, #e6f5ff 50%, #e6f5ff);
 }
 @media (min-width: 1200px) {
     .timeline_body {
@@ -157,7 +157,7 @@ Styling for Experience section
     margin-top: 10px;
     border-radius: 75%;
     border: 2px solid white;
-    background: linear-gradient(to right, #ccebff, #ccebff 50%, #ffe5d4 50%, #ffe5d4);
+    background: linear-gradient(to right, #ccebff, #ccebff 50%, #fff4ee 50%, #fff4ee);
 }
 .timeline_item_body_container {
     width: 95%;
