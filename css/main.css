@@ -18,6 +18,13 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.header_break_line {
+    width: 50%;
+    margin-left: 25%;
+    color: #18202b;
+    border-color: #18202b;
+    background-color: #18202b;
+}
 
 
 
@@ -26,8 +33,8 @@
     Styling for Home section
 */
 
-#Home {
-    width: 100vw;
+#Profile {
+    width: 100%;
     height: 100vh;
     background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -72,19 +79,51 @@
 
 
 
-
 /* 
-    Styling for About section
+    Styling for Education section
 */
 
-#About {
-    width: 100vw;
-    height: 100vh;
+#Education {
+    width: 100%;
+    height: 100%;
     padding: 5rem 0;
     text-align: center;
     background-size: 100% 100%;
-    background-color: #ffe5d4;
+    background-color: #fafafa;
     background-repeat: no-repeat;
+}
+#Education .section_header_text {
+    color: #18202b;
+}
+#Education .education_row {
+    margin-left: 16rem;
+    margin-right: 20rem;
+    margin-bottom: 8rem;
+}
+.education_logo {
+    width: 115px;
+    border-radius: 20%;
+	border: solid 3px rgb(221, 221, 221);
+	box-shadow: 0 4px 8px #18202b;
+}
+#Education .col-md-8 {
+    padding-top: 1rem;
+}
+#Education .col-md-8 h4 {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+#Education .col-md-8 h5 {
+    margin-top: 0;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 
@@ -99,8 +138,9 @@
     padding: 5rem 0;
     text-align: center;
     background-size: 100% 100%;
+    background-color: #ffe5d4;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff);
+    /* background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff); */
 }
 .experience_container {
     height: 100%;
@@ -121,7 +161,7 @@
     height: 100%;
     margin-left: -1px;
     position: absolute;
-    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff);
+    background-color: #e6f5ff;
 }
 @media (max-width: 1200px) {
     #Experience .container .container {
@@ -186,8 +226,8 @@
     z-index: 300;
     margin-top: 10px;
     border-radius: 75%;
-    border: 2px solid white;
-    background: linear-gradient(to right, #ffe5d4, #ffe5d4 50%, #e6f5ff 50%, #e6f5ff);
+    border: 2px solid #e6f5ff;
+    background-color: #e6f5ff;
 }
 @media screen and (max-width: 768px) {
     .timeline_item_right {
@@ -208,27 +248,27 @@
     padding: 0 15px;
 }
 .timeline_item_body_position {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
     margin-bottom: 0;
     font-weight: bold;
     padding-bottom: 0;
 }
 .timeline_item_right .timeline_item_body_position {
-    color: #ffe5d4;
+    color: #e6f5ff;
 }
 .timeline_item_left .timeline_item_body_position {
-    color: #ccebff;
+    color: #e6f5ff;
 }
 .timeline_item_body_company {
     font-size: 16px;
     color: white;
 }
 .timeline_item_right .timeline_item_body_company {
-    color: #ffe5d4;
+    color: #e6f5ff;
 }
 .timeline_item_left .timeline_item_body_company {
-    color: #ccebff;
+    color: #e6f5ff;
 }
 .timeline_item_body_time {
     font-size: 14px;
@@ -256,6 +296,38 @@
 */
 
 #Projects {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem 0;
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, #e6f5ff, #e6f5ff 50%, #ffe5d4 50%, #ffe5d4);
+}
+
+
+
+/* 
+    Styling for Skills section
+*/
+
+#Skills {
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem 0;
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, #e6f5ff, #e6f5ff 50%, #ffe5d4 50%, #ffe5d4);
+}
+
+
+
+/* 
+    Styling for Contact section
+*/
+
+#Contact {
     width: 100vw;
     height: 100vh;
     padding: 5rem 0;

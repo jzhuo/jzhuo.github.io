@@ -46,41 +46,11 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
-            $('.hover_link').addClass('passive_link');
+            $('.active_link').addClass('passive_link');
             $('.active_link').removeClass('active_link');
             $(this).removeClass("passive_link");
             $(this).addClass("active_link");
         } // End if
-    });
-
-    // *****************************************************
-    // This is the js for dynamic scoll nav bar anchor links
-    // *****************************************************
-
-    $(window).scroll(function (event) {
-        // defining a set list of positions
-        var scroll = $(window).scrollTop();
-        var section1 = $('#Home').scrollTop();
-        var section2 = $('#Education').scrollTop();
-        var section3 = $('#Experience').scrollTop();
-        var section4 = $('#Projects').scrollTop();
-        var section5 = $('#Skills').scrollTop();
-        var section6 = $('#acknowledgements_anchor_link').scrollTop();
-        var section7 = $('#Contact').scrollTop();
-
-        if (scroll >= section1 && scroll < section2) {
-            $('.hover_link').addClass('passive_link');
-            $('.active_link').removeClass('active_link');
-            $("#home_link").addClass('active_link');
-            $("#home_link").removeClass('passive_link');
-        }
-        else if (scroll >= section2 && scroll < section3) {
-            $('.hover_link').addClass('passive_link');
-            $('.active_link').removeClass('active_link');
-            $("#education_link").addClass('active_link');
-            $("#education_link").removeClass('passive_link');
-        }
-
     });
 
 });
