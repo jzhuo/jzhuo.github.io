@@ -334,6 +334,7 @@
     width: 30%;
 }
 #Projects .row {
+    margin-top: 2rem;
     margin-bottom: 6rem;
 }
 @media (min-width: 992px) {
